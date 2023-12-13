@@ -23,6 +23,7 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
+    background-image:url(../img/oo.webp);
 }
 
 body.dark{
