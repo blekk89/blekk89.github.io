@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style>
+        /*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 15px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: rgb(71, 221, 241);
+    border-bottom: 2px solid rgb(17, 9, 175);
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+body {
+	
+	margin:25px;
+	padding:20px;
+	background-image:url(img/oo.webp);
+	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+	
+	}
+	
+h1 {
+	
+	color:#CF9;
+	
+	}	
+
+
+
+
+#form_sign_in {
+	
+	text-align: center;
+	width: inherit;
+	border:#0CC;
+	display:grid;
+	opacity: 10;
+	border-top-left-radius:75px;
+	border-bottom-right-radius:75px;
+	border-bottom-width:thick;
+	background-image:url(img/web.webp);
+	border-bottom-left-radius:75px;
+    border-top-right-radius:75px;
+
+	}
+	
+	
+	
+#input_style {
+	
+	width:250px;
+	height:45px;
+	border-radius:5px;
+	text-align:center;
+	margin:8px;
+	background-color:#FFF;
+	display:relative;
+	
+
+	
+	}	
+#register {
+	background-color:#093;
+	width: 165px;
+	height:50px;
+	border-radius:5px;
+	color: white;
+	font-family: "Gill Sans", sans-serif;
+	font-size:20px;
+	border-color:#FFF;
+	border-width:0px;
+	}
+	
+
+	}	
+		
+	
+#header {
+	background-color:#F90;
+	height:20px;
+	border-bottom-right-radius:150px;
+	border-top-left-radius:150px;
+	opacity: 0.2;
+	
+	}	
+	
+	
+#div_login {
+	
+	background-color:#F90;
+	border-bottom-right-radius:150px;
+	border-top-left-radius:150px;
+	color:#FFF;	
+	}		
+	
+    </style>
+
+
+
+
+        <title>home</title>
+        <div>
+        <nav>
+             <ul>
+              <li><a class="" href="index.html">Accueil</a></li>
+              <li><a class="" href="inscription.html">Inscription</a></li> 
+              <li><a class="" href="service.html">services</a></li>
+              <li><a class="" href="description.html">qui sommes nous?</a></li>  
+              <li><a class="" href="contact.html">contact</a></li>
+             </ul>
+        </nav>
+        </div>
+    </head>
+    <body>
+    
+    <h1 align="center">
+      <p align="center">Merci de completer le formulaire</p>
+      <p align="center">&nbsp;</p>
+      <div id="header">
+      </div>
+    </h1>
+   <div id="form_sign_in"> 
+    <form id="f" method="POST" action="inscription.html">
+      <p><br>
+        <br>
+        
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci nome"><br>
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci cognome"><br> 
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci data nascita"><br>
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci codice fiscale"><br>
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci carta d'identita"><br>
+        <input id="input_style" type="text" name="input_style" placeholder="Inserisci altro"><br>
+       
+        <input id="" type="checkbox" name="" value"homme"><label style="color:#FFF">Homme</label><br>
+        <input id="" type="checkbox" name="" value="femme"><label style="color:#FFF">Femme</label><br>
+        <input id="register" type="submit" value="S'inscrire">
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <div id="div_login">
+      <a href="login.html">Se connecter</a>
+      </div>
+      
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </form>
+   </div> 
+   </body>
+   <footer>
+      <div id="div_login" align="center">copyright AKN Gallarate 2023 </div>
+    </footer>
+</html>
