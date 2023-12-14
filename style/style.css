@@ -293,10 +293,11 @@ body.dark .search-field i{
     }
 
     img {
-        width: 100%;
+        width: 50%;
         height: 270px;
         object-position: center;
         display: flex;
+		text-align:center;
     }    
 
     footer {
