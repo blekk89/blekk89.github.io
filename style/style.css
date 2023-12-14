@@ -25,6 +25,7 @@ body{
     background-color: var(--body-color);
     background-image: url(../img/oo.webp);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body.dark{
