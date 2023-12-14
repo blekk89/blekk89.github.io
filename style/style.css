@@ -23,9 +23,10 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
-    background-image: url(../img/oo.webp);
+    background-image: url(../img/xx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; 
 }
 
 body.dark{
