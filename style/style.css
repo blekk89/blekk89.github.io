@@ -21,12 +21,12 @@
 }
 
 body{
+	
     height: 100vh;
     background-color: var(--body-color);  
     background-size: cover;
 	margin: 0;
-	max-width: 1000px;
-     
+	 
 }
 
 
@@ -321,7 +321,7 @@ body.dark .search-field i{
 
     }
 	
-html {	
-  max-width: 1000px;
+   html {	
+        max-width: 320px;
   
     }
