@@ -27,8 +27,8 @@ body{
 	background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-	
-
+	margin:10px;
+    
 }
 .content {
   max-width: 960px;
