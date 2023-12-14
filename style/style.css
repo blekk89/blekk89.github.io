@@ -25,7 +25,7 @@ body{
     background-color: var(--body-color);  
     background-size: cover;
 	margin: 0;
-	min-height: 100%;
+	max-width: 1000px;
      
 }
 
@@ -322,6 +322,6 @@ body.dark .search-field i{
     }
 	
 html {	
-  height: 100%;
+  max-width: 1000px;
   
     }
