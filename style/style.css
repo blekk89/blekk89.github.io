@@ -25,8 +25,7 @@ body{
     background-color: var(--body-color);  
     background-size: cover;
 	margin: 0;
-	position: relative;
-	left: 0;
+	min-height: 100%;
      
 }
 
@@ -295,7 +294,7 @@ body.dark .search-field i{
         margin-top: 20px;
     }
 
-    }
+    
 
     img {
         width: 50%;
@@ -320,4 +319,9 @@ body.dark .search-field i{
 
         color: #03565f;
 
+    }
+	
+html {	
+  height: 100%;
+  
     }
