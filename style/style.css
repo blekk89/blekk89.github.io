@@ -23,7 +23,7 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
-    margin: 25px;
+    background-image: url("C:\Users\blekk\OneDrive\Bureau\blekk89.github.io\img\Women-in-data-science-900x387.jpg");
 
   
 }
@@ -310,13 +310,4 @@ body.dark .search-field i{
         border-bottom-right-radius:150px;
         border-top-left-radius:150px;
 	}
-		
-    #div_image {
-
-        background-color:#03565f;
-        height:20px;
-        padding:15x;
-        border-bottom-right-radius:150px;
-        border-top-left-radius:150px;
-        border: #03565f;
-    }
+		 
