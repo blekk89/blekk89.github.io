@@ -293,8 +293,8 @@ body.dark .search-field i{
     }
 
     img {
-        width: 75%;
-        height: 350px;
+        width: 90%;
+        height: 500px;
         object-fit: cover;
         object-position: center;
     }    
