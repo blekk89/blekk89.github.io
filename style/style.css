@@ -321,14 +321,3 @@ body.dark .search-field i{
         color: #03565f;
 
     }
-	
-html {
-
-	margin: 0;
-	padding: 0;
-	height: 100%;
-    width: 100%;
-	position: relative;
-	left: 0;
-     
-}
