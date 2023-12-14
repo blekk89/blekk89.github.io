@@ -25,7 +25,8 @@ body{
     background-color: var(--body-color);  
     background-size: cover;
 	margin: 0;
-	position: fixed;
+	position: relative;
+	left: 0;
      
 }
 
@@ -327,5 +328,7 @@ html {
 	padding: 0;
 	height: 100%;
     width: 100%;
-	position:static;
+	position: relative;
+	left: 0;
+     
 }
