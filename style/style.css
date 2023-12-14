@@ -295,7 +295,7 @@ body.dark .search-field i{
     }
 
     img {
-        width: 100%;
+        width: 60%;
         height: 300px;
         object-position: center;
         display: flex;
