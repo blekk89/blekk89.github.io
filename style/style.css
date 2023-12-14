@@ -23,7 +23,7 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
-    background-image: url("C:\Users\blekk\OneDrive\Bureau\blekk89.github.io\img\Women-in-data-science-900x387.jpg");
+    padding-left: 20px;
 
   
 }
