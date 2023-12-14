@@ -13,7 +13,7 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #6b047b;
+    --nav-color: #03565f;
     --side-nav: #010718;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -293,9 +293,17 @@ body.dark .search-field i{
     }
 
     img {
-        width: 80%;
-        height: 200px;
+        width: 75%;
+        height: 350px;
         object-fit: cover;
         object-position: center;
     }    
 
+    footer {
+	
+        background-color:#03565f;
+        color:#FFF;
+        height:20px;
+        padding:15x;
+        border-bottom-right-radius:150px;
+        border-top-left-radius:150px;
