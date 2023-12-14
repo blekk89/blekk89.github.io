@@ -23,9 +23,7 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
-    padding-left: 10px;
 
-  
 }
 
 body.dark{
@@ -296,7 +294,7 @@ body.dark .search-field i{
 
     img {
         width: 60%;
-        height: 300px;
+        height: 280px;
         object-position: center;
         display: flex;
     }    
