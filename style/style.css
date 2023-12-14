@@ -22,14 +22,13 @@
 
 body{
     height: 100vh;
-    background-color: var(--body-color);
-	background-image:url(img/oo.webp);
-	background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-color: var(--body-color);  
     background-size: cover;
 	margin:10px;
-	position:fixed;
-    
+	position:scroll;
+    margin: 0;
+    overflow: auto;
+    background: aqua;   
 }
 .content {
   max-width: 960px;
@@ -328,4 +327,13 @@ body.dark .search-field i{
         color: #03565f;
 
     }
-		 
+	
+html {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: silver;
+}
