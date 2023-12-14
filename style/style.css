@@ -24,7 +24,7 @@ body{
     height: 100vh;
     background-color: var(--body-color);  
     background-size: cover;
-	margin:10px;
+	margin: 0;
     overflow: auto;
     background: aqua;   
 }
@@ -333,5 +333,4 @@ html {
     right: 0;
     top: 0;
     bottom: 0;
-    background: silver;
 }
