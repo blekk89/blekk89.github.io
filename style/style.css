@@ -23,8 +23,19 @@
 body{
     height: 100vh;
     background-color: var(--body-color);
+	background-image:url(img/oo.webp);
+	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+	
 
 }
+.content {
+  max-width: 960px;
+  margin: auto;
+  padding: 10px;
+}
+
 
 body.dark{
     --body-color: #18191A;
