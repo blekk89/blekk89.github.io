@@ -13,7 +13,7 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #380354cf;
+    --nav-color: #6508bd;
     --side-nav: #010718;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -310,7 +310,7 @@ body.dark .search-field i{
 
     footer {
 	
-        background-color:#380354cf;
+        background-color:#6508bd;
         color:#FFF;
         height:20px;
         padding: 0;
@@ -321,7 +321,7 @@ body.dark .search-field i{
 
     h2 {
 
-        color: ##380354cf;
+        color: #6508bd;
 
     }
 	
