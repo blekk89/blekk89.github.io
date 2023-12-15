@@ -1,204 +1,164 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<!-- tag important pour les frameworks by mame magal-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="../style/style.css">
         
-    <style>
-        /*Reset CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
-}
-
-nav{
-    width: 100%;
-    margin: 0px auto 15px auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav li{
-    float: left;
-    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-}
-
-/*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
-
-nav a:hover{
-    color: rgb(71, 221, 241);
-    border-bottom: 2px solid rgb(17, 9, 175);
-}
-
-.conteneur{
-  margin: 0px 20px;
-  height: 1500px;
-}
-
-body {
-	
-	margin:25px;
-	padding:20px;
-	background-image:url(img/oo.webp);
-	background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-	
-	}
-	
-h1 {
-	
-	color:#CF9;
-	
-	}	
-
-
-
-
-#form_sign_in {
-	
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style type="text/css">
+    h1 {
 	text-align: center;
-	width: inherit;
-	border:#0CC;
-	display:grid;
-	opacity: 10;
-	border-top-left-radius:75px;
-	border-bottom-right-radius:75px;
-	border-bottom-width:thick;
-	background-image:url(img/web.webp);
-	border-bottom-left-radius:75px;
-    border-top-right-radius:75px;
-
-	}
-	
-	
-	
-#input_style {
-	
-	width:200px;
-	height:45px;
-	border-radius:5px;
-	text-align:center;
-	margin:8px;
-	background-color:#FFF;
-	
-	
-
-	
-	}	
-#register {
-	background-color:#093;
-	width: 165px;
-	height:50px;
-	border-radius:5px;
-	color: white;
-	font-family: "Gill Sans", sans-serif;
-	font-size:20px;
-	border-color:#FFF;
-	border-width:0px;
-	}
-	
-
-	}	
-		
-	
-#header {
-	background-color:#F90;
-	height:20px;
-	border-bottom-right-radius:150px;
-	border-top-left-radius:150px;
-	opacity: 0.2;
-	
-	}	
-	
-	
-#div_login {
-	
-	background-color:#F90;
-	border-bottom-right-radius:150px;
-	border-top-left-radius:150px;
-	color:#FFF;	
-	}		
-	
+	font-size: 18px;
+}
     </style>
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+    </script>
+</head>
+<body onLoad="MM_preloadImages('../CORSO HARVARD WEB DEVELOPPING 2023/img/logo_ada.jpg')">
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+           <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="index.html">Africa data Analytics</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="about.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="inscription.html">Insription</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
 
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
 
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
 
-
-        <title>home</title>
-        <div>
-        <nav>
-             <ul>
-              <li><a class="" href="index.html">Accueil</a></li>
-              <li><a class="" href="inscription.html">Inscription</a></li> 
-              <li><a class="" href="service.html">services</a></li>
-              <li><a class="" href="description.html">qui sommes nous?</a></li>  
-              <li><a class="" href="contact.html">contact</a></li>
-             </ul>
-        </nav>
+                    <div class="search-field">
+                        <p>
+                          <input type="text" placeholder="Search...">
+                        </p>
+                      <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </head>
-    <body>
-    
-    <h1 align="center">
-      <p align="center">Merci de completer le formulaire</p>
-      <p align="center">&nbsp;</p>
-      <div id="header">
-      </div>
-    </h1>
-   <div id="form_sign_in"> 
-    <form id="f" method="POST" action="inscription.html">
-      <p><br>
-        <br>
-        
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci nome"><br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci cognome"><br> 
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci data nascita"><br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci codice fiscale"><br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci carta d'identita"><br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserisci altro"><br>
+    </nav>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+      <p>&nbsp;</p></p> 
+      <div>
+        <form name="form1" method="post" action="">
+          <div align="center">
+            <input id="" type="text" name="" placeholder="Inserer Nom">
+            <br>
+            <input id="" type="text" name="" placeholder="Inserer Prenom"><br>
+            <input id="" type="date" name="" placeholder="Inserer Date de naissance"><br>
+            <input id="" type="text" name="" placeholder="Inserer residence"><br>
+            <input id="" type="number" name="" placeholder="Inserer Carte d'identité"><br>
+            <input id="" type="text" name="" placeholder="Inserer Region"><br>
+            <input id="" type="text" name="" placeholder="Inserer Numero Tel"><br>
+            <input id="" type="number" name="" placeholder="Inserer Numero Registre"><br>
+            <input id="" type="submit" name="register" placeholder="S'inscrire" value="Se connecter"><br>
+          </div>
+        </form>
+      </div>  
+        <p>&nbsp;</p>
+        <h2 align="center">&nbsp;</h2>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+     <h2>&nbsp;</h2>
+     <h2>&nbsp;</h2>
+     <h2 align="center">&nbsp;</h2>
+     <h2 align="center">&nbsp;</h2>
+<h2 align="center">&nbsp;</h2>
+<p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+<h2 align="center">&nbsp;</h2>
+<p>&nbsp;</p>
        
-        <input id="" type="checkbox" name="" value"homme"><label style="color:#FFF">Homme</label><br>
-        <input id="" type="checkbox" name="" value="femme"><label style="color:#FFF">Femme</label><br>
-        <input id="register" type="submit" value="S'inscrire">
-      </p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <div id="div_login">
-      <a href="login.html">Se connecter</a>
-      </div>
+  
+
+
+<p>&nbsp;</p></p> 
+     <p>&nbsp;</p>
+<script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
       
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </form>
-   </div> 
-   </body>
-   <footer>
-      <div id="div_login" align="center">copyright AKN Gallarate 2023 </div>
-    </footer>
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<footer>
+    <div id="div_login" align="center">copyright AKN Gallarate 2023 </div>
+  </footer>
+</body>
 </html>
