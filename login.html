@@ -1,178 +1,233 @@
 <!doctype html>
-    <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
 
-    <style>
-        /*Reset CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
+<style>
+
+@charset "utf-8";
+
+
+@import url//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
+
+div.main{
+    background: #0264d6; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height:calc(100vh);
+width:100%;
 }
 
-nav{
-    width: 100%;
-    margin: 0px auto 15px auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
 }
 
-nav ul{
-    list-style-type: none;
-}
+/* ---------- GENERAL css de la page---------- */
 
-nav li{
-    float: left;
-    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-}
+* {
+  box-sizing: border-box;
+    margin:0px auto;
 
-/*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
 
-nav a{
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
-
-nav a:hover{
-    color: rgb(71, 221, 241);
-    border-bottom: 2px solid rgb(17, 9, 175);
-}
-
-.conteneur{
-  margin: 0px 20px;
-  height: 1500px;
 }
 
 body {
-	
-	margin:25px;
-	padding:20px;
-	background-image:url(img/oo.webp);
-	background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-	
-	}
-	
-h1 {
-	
-	color:#CF9;
-	
-	}	
+   
+    color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
 
+a {
+	color: #eee;
+	text-decoration: none;
+}
 
+a:hover {
+	text-decoration: underline;
+}
 
+input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
 
-#form_sign_in {
-	
+p {
+	line-height: 1.5em;
+}
+
+.clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---------- LOGIN ---------- */
+
+#login form{
+	width: 250px;
+}
+#login, .logo{
+    display:inline-block;
+    width:40%;
+}
+#login{
+border-right:1px solid #fff;
+  padding: 0px 22px;
+  width: 59%;
+}
+.logo{
+color:#fff;
+font-size:50px;
+  line-height: 125px;
+}
+
+#login form span.fa {
+	background-color: #fff;
+	border-radius: 3px 0px 0px 3px;
+	color: #000;
+	display: block;
+	float: left;
+	height: 50px;
+    font-size:24px;
+	line-height: 50px;
 	text-align: center;
-	width: inherit;
-	border:#0CC;
-	display:grid;
-	opacity: 10;
-	border-top-left-radius:75px;
-	border-bottom-right-radius:75px;
-	border-bottom-width:thick;
-	background-image:url(img/web.webp);
-	border-bottom-left-radius:75px;
-    border-top-right-radius:75px;
+	width: 50px;
+}
 
-	}
-	
-	
-	
-#input_style {
-	
-	width:150px;
-	height:45px;
-	border-radius:5px;
-	text-align:center;
-	margin:0px;
-	background-color:#FFF;
-	display: grid;
+#login form input {
+	height: 50px;
+}
+fieldset{
+    padding:0;
+    border:0;
+    margin: 0;
 
-	
-	}	
+}
+#login form input[type="text"], input[type="password"] {
+	background-color: #fff;
+	border-radius: 0px 3px 3px 0px;
+	color: #000;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 200px;
+}
 
-#register {
-	background-color:#093;
-	width: 165px;
-	height:30px;
-	border-radius:5px;
-	color: white;
-	font-family: "Gill Sans", sans-serif;
-	font-size:20px;
-	border-color:#FFF;
-	border-width:4px;
-	}
-	
-	
-	
-label {
-	
-	color:#FFF;
-	
-	}
-	
-footer {
-	
-	background-color:#F90;
-	color:#FFF;
-	height:20px;
-	padding:15x;
-	border-bottom-right-radius:150px;
-	border-top-left-radius:150px;
-	
-	}		
-#header {
-	background-color:#F90;
-	height:20px;
-	border-bottom-right-radius:150px;
-	border-top-left-radius:150px;
-	opacity: 0.2;
-	}	
+#login form input[type="submit"] {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #000000;
+  color: #eee;
+  font-weight: bold;
+  /* margin-bottom: 2em; */
+  text-transform: uppercase;
+  padding: 5px 10px;
+  height: 30px;
+}
+
+#login form input[type="submit"]:hover {
+	background-color: #d44179;
+}
+
+#login > p {
+	text-align: center;
+}
+
+#login > p span {
+	padding-left: 5px;
+}
+.middle {
+  display: flex;
+  width: 600px;
+}
+
+
 
 </style>
-        <title>login</title>
+
+
+
+</head>
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Include the above in your HEAD tag -->
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<div class="main">
     
-    </head>
-    <body>
     
-    <h1 align="center">
-      <div><p align="center"><a href="index.html"><img src="img/logo-png (2).png" width="75" height="75"></a></p></div>
-      <p align="center">&nbsp;</p>
-      <div id="header">
+    <div class="container">
+<center>
+<div class="middle">
+      <div id="login">
+
+        <form action="javascript:void(0);" method="get">
+
+          <fieldset class="clearfix">
+
+            <p ><span class="fa fa-user"></span><input type="text"  Placeholder="Username" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+            <p><span class="fa fa-lock"></span><input type="password"  Placeholder="Password" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+            
+             <div>
+                                <span style="width:48%; text-align:left;  display: inline-block;"><a class="small-text" href="#">Forgot
+                                password?</a></span>
+                                <span style="width:50%; text-align:right;  display: inline-block;"><input type="submit" value="Sign In"></span>
+                            </div>
+
+          </fieldset>
+<div class="clearfix"></div>
+        </form>
+
+        <div class="clearfix"></div>
+
+      </div> <!-- end login -->
+      <div class="logo">LOGO
+          
+          <div class="clearfix"></div>
       </div>
-    </h1>
-   <div id="form_sign_in"> 
-    <form id="f" method="POST" action="index.html">
-      <p><br>
-        <br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserer identifiant"><br>
-        <input id="input_style" type="text" name="input_style" placeholder="Inserer mot de passe"><br> 
-        <input id="register" type="submit" value="Se connecter">
-        
-      </p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p><p><a href="#">mot de passe oublié ?</a></p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </form>
-   </div> 
-    </body>
-    <footer>
-       <div align="center">copyright AKN Gallarate 2023 </div>
-    </footer>
-</html>
+      
+      </div>
+</center>
+    </div>
+
+</div>
