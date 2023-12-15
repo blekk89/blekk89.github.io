@@ -322,6 +322,7 @@ body.dark .search-field i{
 	
    html {	
         max-width: 90%;	
-		padding-left: 150px;
+		margin: 20px;
+		
 		
     }
