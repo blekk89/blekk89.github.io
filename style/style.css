@@ -323,8 +323,15 @@ body.dark .search-field i{
 	
    html {	
         max-width: 90%;	
-		margin: 20px;
 		margin-top: 50px;
 		
 		
     }
+	
+	
+	iframe {
+		
+		max-width: 90%;
+		
+		
+		}
