@@ -301,7 +301,7 @@ body.dark .search-field i{
         object-position: center;
         display: flex;
 		text-align:center;
-		margin: 20px;
+		
     }    
 
     footer {
@@ -331,7 +331,8 @@ body.dark .search-field i{
 	
 	iframe {
 		
-		max-width: 90%;
+		max-width: 100%;
+		
 		
 		
 		}
