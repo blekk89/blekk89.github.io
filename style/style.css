@@ -301,6 +301,7 @@ body.dark .search-field i{
         object-position: center;
         display: flex;
 		text-align:center;
+		margin: 20px;
     }    
 
     footer {
