@@ -302,7 +302,7 @@ body.dark .search-field i{
         object-position: center;
         display: flex;
 		text-align:center;
-		margin-top:35px;
+		margin-top:50px;
 		
     }    
 
@@ -343,6 +343,6 @@ body.dark .search-field i{
 .center_home {
 	
 	margin:auto;
-	
+	margin-top: 50px;
 	
 	}	
