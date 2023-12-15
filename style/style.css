@@ -25,7 +25,7 @@ body{
     height: 100vh;
     background-color: var(--body-color);  
     background-size: cover;
-	margin: 50px;
+	margin:auto;
 	 
 }
 
