@@ -13,7 +13,7 @@
 /* ===== Colours ===== */
 :root{
     --body-color: #E4E9F7;
-    --nav-color: #08646a83;
+    --nav-color: #380354cf;
     --side-nav: #010718;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -297,18 +297,19 @@ body.dark .search-field i{
 }  
 
     img {
-        width: 100%;
+        width: 80%;
         height: 250px;
         object-position: center;
         display: flex;
 		text-align:center;
+        
 		
 		
     }    
 
     footer {
 	
-        background-color:#08646a83;
+        background-color:#380354cf;
         color:#FFF;
         height:20px;
         padding: 0;
@@ -319,7 +320,7 @@ body.dark .search-field i{
 
     h2 {
 
-        color: #08646a83;
+        color: ##380354cf;
 
     }
 	
