@@ -21,7 +21,7 @@ if ($conn->connect_error) {
 		. $conn->connect_error);
 }
 
-$sqlquery = "INSERT INTO citoyen VALUES 
+$sqlquery = "INSERT INTO citoyen(Id_Citoyen,Nom,Prenom,Nom_mere,Nom_pere,Adresse) VALUES 
 	('$id_citizen', '$nom', '$prenom','$nom_mere','$nom_pere','$adresse')";
 
 if ($conn->query($sql) === TRUE) {
