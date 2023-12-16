@@ -6,8 +6,9 @@ $password = "";
 $dbname = "anagrafica_sn";
 $nom =  $_REQUEST['nom'];
 $prenom= $_REQUEST['prenom'];
-$first_name =  $_REQUEST['nom_mere'];
-$last_name = $_REQUEST['nom_pere'];
+$nom_mere =  $_REQUEST['nom_mere'];
+$nom_pere = $_REQUEST['nom_pere'];
+$adresse = $_REQUEST['addresse'];
 
 // Create connection
 $conn = new mysqli($servername, 
