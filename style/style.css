@@ -303,6 +303,7 @@ body.dark .search-field i{
         display: flex;
 		text-align:center;
         padding-top: 50px;
+		border: double #6508bd;
         
 		
 		
