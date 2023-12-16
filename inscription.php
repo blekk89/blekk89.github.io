@@ -1,7 +1,7 @@
 <?php
 
 $servername = "localhost";
-$username = "admin";
+$username = "root";
 $password = "";
 $dbname = "anagrafica_sn";
 $id_citizen = "00424";
@@ -21,25 +21,15 @@ if ($conn->connect_error) {
 		. $conn->connect_error);
 }
 
-$sqlquery = "INSERT INTO citoyen(Id_Citoyen,Nom,Prenom,Nom_mere,Nom_pere,Adresse) VALUES 
-	('$id_citizen', '$nom', '$prenom','$nom_mere','$nom_pere','$adresse')";
+$sql = "INSERT INTO citoyen(Id_Citoyen,Nom,Prenom,Nom_mere,Nom_pere,Adresse,Genre,Region,Departement,Profession,Cin,Numero_Tel) VALUES 
+	('$id_citizen', '$nom', '$prenom','$nom_mere','$nom_pere','$adresse','homme','dakar','guediawaye','it','00123458','33965242')";
 
 if ($conn->query($sql) === TRUE) {
 	echo "record inserted successfully";
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 }
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
- 
-    // collect value of input field
-    $data = $_REQUEST['val1'];
- 
-    if (empty($data)) {
-        echo "data is empty";
-    } else {
-        echo $data;
-    }
-}
+
 
  
 // Closing the connection.
