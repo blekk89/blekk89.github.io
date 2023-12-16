@@ -302,8 +302,9 @@ body.dark .search-field i{
         object-position: center;
         display: flex;
 		text-align:center;
-        padding-top: 75px;
-	    border-radius: 50px;
+        padding-top: 25px;
+	     border-bottom-right-radius:150px;
+        border-top-left-radius:150px;
         
 		
 		
