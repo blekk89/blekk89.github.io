@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost";
-$username = "karim";
-$password = "772392025";
+$username = "root";
+$password = "";
 $dbname = "anagrafica_sn";
 $id_citizen = "00424";
 $nom =  $_REQUEST['nom'];
@@ -21,7 +21,7 @@ if ($conn->connect_error) {
 		. $conn->connect_error);
 }
 
-$sql = "INSERT INTO citoyen(ID_Citizen,Nom,Prenom,Nom_mere,Nom_pere,Addresse,Genre,Region,Departement,Profession,Cin,Numero_Tel) VALUES 
+$sql = "INSERT INTO citoyen(ID_citizen,Nom,Prenom,Nom_mere,Nom_pere,Addresse,Genre,Region,Departement,Profession,Cin,Numero_Tel) VALUES 
 	('$id_citizen', '$nom', '$prenom','$nom_mere','$nom_pere','$adresse','homme','dakar','guediawaye','it','00123458','33965242')";
 
 if ($conn->query($sql) === TRUE) {
