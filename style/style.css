@@ -298,13 +298,12 @@ body.dark .search-field i{
 
     img {
         width: 80%;
-        height: 400px;
+        height: 300px;
         object-position: center;
         display: flex;
 		text-align:center;
         padding-top: 50px;
-	     border-bottom-right-radius:150px;
-        border-top-left-radius:150px;
+	    
         
 		
 		
