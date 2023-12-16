@@ -302,7 +302,7 @@ body.dark .search-field i{
         object-position: center;
         display: flex;
 		text-align:center;
-        padding-top: 50px;
+        margin: auto;
 		border: double #6508bd;
         
 		
