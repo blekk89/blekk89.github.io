@@ -298,7 +298,7 @@ body.dark .search-field i{
 
     img {
         width: 80%;
-        height: auto;
+        height: 400px;
         object-position: center;
         display: flex;
 		text-align:center;
