@@ -64,7 +64,7 @@ $cin = $_REQUEST['cin'];
 $numero = $_REQUEST['numero'];
 $email = $_REQUEST['email'];
 $user = $_REQUEST['email'];
-$session = "blekksSNTEST";
+$nom_utilisateur = $_REQUEST['nom_utilisateur'];
 $password2 = $_REQUEST['password'];
 
 
@@ -88,21 +88,34 @@ $sql =
 
 strtoupper("INSERT INTO citoyen(ID_citizen,Nom,Prenom,Nom_mere,Nom_pere,Addresse,Genre,Region,Departement,Profession,Cin,Numero_Tel,Email) VALUES 
 	('$id_citizen', '$nom', '$prenom','$nom_mere','$nom_pere','$adresse','$genre','$region','$departement','$profession','$cin ','$numero','$email')");
+	
+// query creation des donnees utilisateur
+$sql2 = "INSERT INTO utilisateur(ID_session,Nom,Prenom,User,ID_citizen,mot_de_passe) VALUES 
+		('$nom_utilisateur', '$nom', '$prenom','$user','$id_citizen','$password2')";
 
-// query a controller ca ne fonctionne pas
-$sql2 = "INSERT INTO utilisateur(ID_session,Nom,Prenom,user,ID_citizen,password,Data) VALUES 
-		('$session', '$nom', '$prenom','$user','$id_citizen','$password2','date')";
 
-if ($conn->query($sql) === TRUE) {
+// controle creation de l'id citizen et insertion des donnees correctement
+
+if ($conn->query($sql) === TRUE  ) {
 	echo " Bienvenue sur notre plateforme <h2>$nom $prenom</h2> Dalal Ak Jamm
 	votre enregistrement a été effectué avec succés.
 	votre ID unique est le suivant : <h2>$id_citizen</h2>
 	Merci de votre confiance, veuillez suuivre le lien ci dessous pour acceder à votre compte et découvrir nos nombreux services. " ;
-	
+
 } else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
+
+
+
+// controle insertion dans la table utilisateur
+if ($conn->query($sql2) === TRUE ) {
+	echo " UTILISATEUR INSERE ! " ;	
+
+} else {
+	echo "Error: " . $sql2 . "<br>" . $conn->error;
+}
 
  
 // Closing the connection.
@@ -117,19 +130,3 @@ $conn->close();
 </body>
     
     </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
