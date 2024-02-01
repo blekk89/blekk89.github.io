@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!-- tag important pour les frameworks by mame magal-->
 <html lang="en">
