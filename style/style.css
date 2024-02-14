@@ -352,7 +352,7 @@ body.dark .search-field i{
     /* style de la page service */
 
 
-    body{margin-top:20px;}
+    body{margin-top:20px; margin-bottom:20px;}
     .price-innerdetail h5 {
           font-weight: 400;
           letter-spacing: 2px;
