@@ -1,95 +1,59 @@
-<!DOCTYPE html>
-<!-- tag important pour les frameworks by mame magal-->
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="../style/style.css">
-        
-    <!-- ===== Boxicons CSS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-    <style type="text/css">
-    h1 {
-	text-align: center;
-	font-size: 18px;
-}
-
-    </style>
-    <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-    </script>
- <!-- ===== script adsense pug google===== -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
-     crossorigin="anonymous"></script>
+  <style>
+    body{
+      margin-top:20px;
+      background:#eee;
+  }
+  .gradient-brand-color {
+      background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+      background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+      color: #fff;
+  }
+  .contact-info__wrapper {
+      overflow: hidden;
+      border-radius: .625rem .625rem 0 0
+  }
+  
+  @media (min-width: 1024px) {
+      .contact-info__wrapper {
+          border-radius: 0 .625rem .625rem 0;
+          padding: 5rem !important
+      }
+  }
+  .contact-info__list span.position-absolute {
+      left: 0
+  }
+  .z-index-101 {
+      z-index: 101;
+  }
+  .list-style--none {
+      list-style: none;
+  }
+  .contact__wrapper {
+      background-color: #fff;
+      border-radius: 0 0 .625rem .625rem
+  }
+  
+  @media (min-width: 1024px) {
+      .contact__wrapper {
+          border-radius: .625rem 0 .625rem .625rem
+      }
+  }
+  @media (min-width: 1024px) {
+      .contact-form__wrapper {
+          padding: 5rem !important
+      }
+  }
+  .shadow-lg, .shadow-lg--on-hover:hover {
+      box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+  }
+  </style>
+ 
 </head>
-    <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen' ></i>
-           <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="index.html">AKN Consulting</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
-                </div>
-                
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="inscription.html">Insription</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
-
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
-                </div>
-
-                <div class="searchBox">
-                   <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
-                   </div>
-
-                    <div class="search-field">
-                        <p>
-                          <input type="text" placeholder="Search...">
-                        </p>
-                      <p>&nbsp;</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
 
 
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <div class="container">
     <div class="contact__wrapper shadow-lg mt-n9">
         <div class="row no-gutters">
@@ -179,58 +143,3 @@ function MM_swapImage() { //v3.0
         </div>
     </div>
 </div>
-
-     
-
-<script>
-
-const body = document.querySelector("body"),
-      nav = document.querySelector("nav"),
-      modeToggle = document.querySelector(".dark-light"),
-      searchToggle = document.querySelector(".searchToggle"),
-      sidebarOpen = document.querySelector(".sidebarOpen"),
-      siderbarClose = document.querySelector(".siderbarClose");
-
-      let getMode = localStorage.getItem("mode");
-          if(getMode && getMode === "dark-mode"){
-            body.classList.add("dark");
-          }
-
-// js code to toggle dark and light mode
-      modeToggle.addEventListener("click" , () =>{
-        modeToggle.classList.toggle("active");
-        body.classList.toggle("dark");
-
-        // js code to keep user selected mode even page refresh or file reopen
-        if(!body.classList.contains("dark")){
-            localStorage.setItem("mode" , "light-mode");
-        }else{
-            localStorage.setItem("mode" , "dark-mode");
-        }
-      });
-
-// js code to toggle search box
-        searchToggle.addEventListener("click" , () =>{
-        searchToggle.classList.toggle("active");
-      });
- 
-      
-//   js code to toggle sidebar
-sidebarOpen.addEventListener("click" , () =>{
-    nav.classList.add("active");
-});
-
-body.addEventListener("click" , e =>{
-    let clickedElm = e.target;
-
-    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-        nav.classList.remove("active");
-    }
-});
-
-</script>
-<footer>
-    <div id="div_login" align="center">copyright AKN Gallarate 2023 </div>
-  </footer>
-</body>
-</html>
