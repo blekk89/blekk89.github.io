@@ -1,230 +1,248 @@
-<!doctype html>
-<html>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<!-- tag important pour les frameworks by mame magal-->
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <style>
-        /*Reset CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
-}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-nav{
-    width: 100%;
-    margin: 10px auto 15px auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav li{
-    float: left;
-    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-}
-
-/*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
-	
-}
-
-nav a:hover{
-    color: rgb(71, 221, 241);
-    border-bottom: 2px solid rgb(17, 9, 175);
-}
-
-.conteneur{
-  margin: 0px 20px;
-  height: 1500px;
-}
-
-body {
-	
-	margin:25px;
-	padding:20px;
-	background-image:url(img/oo.webp);
-	background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-	
-	}
-	
-h1 {
-	
-	color:#CF9;
-	
-	}	
-
-
-
-
-#form_sign_in {
-	
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="../style/style.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style type="text/css">
+    h1 {
 	text-align: center;
-	width: inherit;
-	background-color:#6CF;
-	border:#0CC;
-	border:double;
-	display:grid;
-	opacity: 0.9;
-	border-top-left-radius:150px;
-	border-bottom-right-radius:150px;
-	border-bottom-width:thick;
-	
-	}
-	
-	
-	
-#input_style {
-	
-	width:400px;
-	height:45px;
-	border-radius:5px;
-	text-align:center;
-	margin:8px;
-	background-color:#9CC;
+	font-size: 18px;
+}
 
-	
-	}	
-#register {
-	background-color:#093;
-	width: 165px;
-	height:30px;
-	border-radius:5px;
-	color: white;
-	font-family: "Gill Sans", sans-serif;
-	font-size:20px;
-	border-color:#FFF;
-	border-width:4px;
-	}
-	
-	
-#register> hover{
-	color:#333;
-	}	
-	
-#register2 {
-	background-color:#F00;
-	width: 165px;
-	height:30px;
-	border-radius:5px;
-	color: white;
-	font-family: "Gill Sans", sans-serif;
-	font-size:20px;
-	border-color:#FFF;
-	border-width:4px;
-	}	
-	
-footer {
-	
-	background-color:#F90;
-	color:#FFF;
-	height:20px;
-	padding:15x;
-	border-bottom-right-radius:150px;
-	border-top-left-radius:150px;
-	
-	}
-	
-#login_div  {
-	
-	background-color:#F90;
-	text-align:right;
-	
-	
-	}	
-	
-</style>
-        <title>home</title>
-        <div id="login_div">
-        <a class="" href="login.html">login</a>
-        <a class="" href="">aide</a>
-        <a class="" href="">?</a>
+    </style>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+ <!-- ===== script adsense pug google===== -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
+     crossorigin="anonymous"></script>
+</head>
+<body onLoad="MM_preloadImages('../CORSO HARVARD WEB DEVELOPPING 2023/img/logo_ada.jpg')">
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+           <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="index.html">AKN Consulting</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="inscription.html">Insription</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <p>
+                          <input type="text" placeholder="Search...">
+                        </p>
+                      <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-        <nav>
-             <ul>
-              <li><a class="" href="#">Accueil</a></li>
-              <li><a class="" href="inscription.html">Inscription</a></li> 
-              <li><a class="" href="service.html">services</a></li>
-              <li><a class="" href="#">qui sommes nous?</a></li>  
-              <li><a class="" href="#">contact</a></li>
-             </ul>
-        </nav>
-        </div>
-    </head>
-    <body>
-    
-    <h1 align="center">
-      <p align="center">&lt;&lt;&lt;&lt;&lt;&lt;en construction &gt;&gt;&gt;&gt;&gt;&gt; </p>
-      <p align="center">A bientot !</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
+    </nav>
+
+
+<div class="center_home">
+  <p align="center">&nbsp;</p>
+<p align="center"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('logo_home','','../img/logo_ada.jpg',1)"><img src="img/logo-png-akn.png" alt="..." name="logo_home" width="80" height="80" class=".img-fluid " id="logo_home"></a></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+</div>
+<div>   
+  <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <h2 align="center">Reporting & Dashboard</h2>
       <div>
-      <p align="center"><iframe width="775" height="400" src="https://www.youtube.com/embed/hy46MRJ_Yws" title="Ngaaka Blinde Vs Akhlou Brick Paradise en Chiffres" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </p>
-      <p align="center">&nbsp;</p></div>
-      <p align="center">&nbsp;</p>
+        <p align="center">Dans un monde en pleine croissance démographique, savoir gerer les besoins de ses clients est fondamental.</p>
+        <p align="center"> En ce sens, Africa data Analytics vous offre des solutions sur mesures afin de mieux piloter votre entreprise.</p>
+        <p align="center">En ce sens, Africa data Analytics vous offre des solutions sur mesures afin de mieux piloter votre entreprise.
+          Nous sommes des experts du secteur avec plusieurs années d'experience. </p>
+      </div>
+  <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+      <p>&nbsp;</p></p> 
+        <p>&nbsp;</p>
+        <h2 align="center">Business intelligence</h2>
+        <div>
+          <p align="center">La Business Intelligence (BI) combine analytique métier, data mining, visualisation de données, outils et infrastructure de gestion des données et meilleures pratiques pour aider les entreprises à prendre des décisions basées sur les données. En pratique, on parle de BI lorsque vous disposez d'une vue d'ensemble des données de votre entreprise et utilisez ces données pour favoriser le changement, gagner en efficacité et vous adapter aux évolutions du marché.</p>
+          <p align="center">Il est important de noter qu'il s'agit là d'une définition très moderne de la BI, un terme qui a connu une histoire très mouvementée. La Business Intelligence traditionnelle est née dans les années 1960 sous la forme d'un système qui partageait des informations entre organisations. Elle s'est développée au cours des années 1980, dans le sillage des modèles informatiques pour la prise de décisions et la transformation de données en informations exploitables, avant de devenir un service à part entière dispensé par des équipes BI avec des solutions s'appuyant sur l'IT. Les solutions BI modernes donnent la priorité à la flexibilité de l'analyse en libre-service, aux données sur des plates-formes fiables dans un cadre de gouvernance et à la rapidité d'accès aux informations, tout en donnant davantage de moyens aux utilisateurs métier. Cet article sert d'introduction à la BI.</p>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+     <div class="center_home" align="center">   
+       <p><img src="img/black.png"  alt="Responsive image" class=".img-fluid ">
+       </p>
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+     </div>
+
+
+     <h2>&nbsp;</h2>
+     <h2>&nbsp;</h2>
+     <h2 align="center">&nbsp;</h2>
+     <h2 align="center">&nbsp;</h2>
+<h2 align="center">Intelligence Artificielle</h2>
+    <div>
+     <p align="center">&nbsp;</p>
+     <p align="center">L'intelligence artificielle (IA) est un processus d'imitation de l'intelligence humaine qui repose sur la création et l'application d'algorithmes exécutés dans un environnement informatique dynamique. Son but est de permettre à des ordinateurs de penser et d'agir comme des êtres humains.</p>
+     <p align="center">Pour y parvenir, trois composants sont nécessaires :</p>
+     <div align="center">
+       <ul>
+         <li>Des systèmes informatiques</li>
+         <li>Des données avec des systèmes de gestion</li>
+         <li>Des algorithmes d'IA avancés (code)</li>
+       </ul>
+     </div>
+     <p align="center">Pour se rapprocher le plus possible du comportement humain, l'intelligence artificielle a besoin d'une quantité de données et d'une capacité de traitement élevées.</p>
+     <p align="center">&nbsp;</p>
+     <p align="center">&nbsp;</p>
+</div>
+
+
+     <div class="center_home" align="center">   
+     <p><img src="img/ia.jpg" class=".img-fluid " alt="Responsive image">
+     </p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+    </div>
+
+
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+<h2 align="center">Data Analytics</h2>
+<div>
+     <p align="center">La data analytics, ou l&rsquo;analytique de la donnée, consiste à explorer, transformer et analyser les données afin d&rsquo;identifier les tendances et les schémas qui révèlent des informations exploitables pertinentes et améliorent l&rsquo;efficacité, ce qui contribue à optimiser la prise de décision. Une stratégie moderne de data analytics permet aux systèmes et aux entreprises d&rsquo;agir en fonction d&rsquo;analyses automatisées en temps réel, ce qui garantit des résultats immédiats et percutants.</p></div>
+     <p>&nbsp;</p>
+       
+  
+
+
+<p>&nbsp;</p></p> 
+     <p>&nbsp;</p>
+	<div class="center_home" align="center">   
+     <p><img src="img/wh.jpg" class=".img-fluid " alt="Responsive image">
+     </p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+    </div>
+
+<div>
       <p align="center">Africa Data Analytics est une entreprise de droit sénégalais. Elle a été fondée en 2021 par Mr Ndiaye Abdoul Karim, un ingenieur en developpment web et analyse de données.</p>
       <p align="center">notre but est de vous fournir des services digitaux afin de simplifier vos taches quotidiennes.</p>
       <p align="center">&nbsp;</p>
       <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-     
-      <div>
-      <p align="center">&nbsp;</p>
-      <p align="center">Business Intelligence </p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center"><img src="img/dashboard_covid1.PNG" width="961" height="450" alt="ada3"></p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      </div>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <div>
-      <p align="center"> <img src="img/mgb_project.PNG" width="961" height="450" alt="ada4"></p>
-      </div>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <div>
-      <p align="center"><img src="img/analytics-home-dashbboard-new.png" width="961" height="450" alt="ada5"></p></div>
-      </div>
-    </h1>
-    <div>
-    <footer>
-      <div align="center">copyright AKN Gallarate 2023 </div>
-    </footer>
-    </div>
-    </body>
+  <p align="center">&nbsp;</p>
+    
+  </div>  
+   
+
+<script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<footer>
+    <div id="div_login" align="center">copyright AKN Gallarate 2023 </div>
+  </footer>
+</body>
 </html>
