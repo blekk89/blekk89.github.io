@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Baskerville', 'Cambria';
+    font-size: 20px;
     transition: all 0.4s ease;;
 }
 
