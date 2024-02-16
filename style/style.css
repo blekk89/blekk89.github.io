@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Baskerville', 'Cambria';
-    font-size: 17px;
+    font-size: 16px;
     transition: all 0.4s ease;;
 }
 
@@ -298,8 +298,8 @@ body.dark .search-field i{
 }  
 
     img {
-        width: 80%;
-        height: 300px;
+        width: 50%;
+        height: 250px;
         object-position: center;
         display: flex;
 		text-align:center;
