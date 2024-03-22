@@ -1,3 +1,21 @@
 <html>
     <iframe title="RESULTAT_2024" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=1de66fc1-49a3-4a34-8f03-6225f0e5935d&autoAuth=true&embeddedDemo=true" frameborder="0" allowFullScreen="true"></iframe>
+   <script>
+   
+    // Set up the configuration object that determines what to embed and how to embed it.
+let embedConfiguration = {
+    accessToken: anAccessToken,
+    embedUrl: anEmbedUrl,
+    id: aReportId,
+    permissions: somePermissions,
+    tokenType: aTokenType,
+    type: 'report'
+};
+ 
+// Get a reference to the HTML element that contains the embedded report.
+let embedContainer = $('#embedContainer')[0];
+ 
+// Embed the report.
+let report = powerbi.embed(embedContainer, embedConfiguration);
+</script>
 </html>
