@@ -299,7 +299,7 @@ body.dark .search-field i{
 
     img {
         width: 60%;
-        height: 40%;
+        height: 100%;
         object-position:center;
         display: center;
 		text-align:center;
