@@ -299,18 +299,13 @@ body.dark .search-field i{
 
     img {
         width: 50%;
-        height: 250px;
+        height: auto;
         object-position: center;
         display: center;
 		text-align:center;
         background-color: #6508bd;
         padding-top: 50px;
-        image-resolution: 300dpi;
-        image-resolution: from-image 300dpi;
-        image-resolution: 300dpi snap;
-
-	
-		
+        	
     }    
 
     footer {
