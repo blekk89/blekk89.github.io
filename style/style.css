@@ -304,6 +304,17 @@ body.dark .search-field i{
         display: flex;
 		text-align:center;
         padding-top: 50px;
+        image-resolution: from-image;
+        image-resolution: 300dpi;
+        image-resolution: from-image 300dpi;
+        image-resolution: 300dpi snap;
+
+      /* Valeurs globales */
+        image-resolution: inherit;
+        image-resolution: initial;
+        image-resolution: revert;
+        image-resolution: unset;
+
 	    
         
 		
