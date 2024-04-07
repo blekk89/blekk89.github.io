@@ -313,7 +313,7 @@ body.dark .search-field i{
 	
         background-color:#6508bd;
         color:#FFF;
-        height:20px;
+        height:100px;
         padding: 0;
         border-bottom-right-radius:150px;
         border-top-left-radius:150px;
@@ -351,9 +351,9 @@ body.dark .search-field i{
  .text_home {
 
     background-color: #f2f8fd;
-    margin: 25px;
+    margin: auto;
     border-top: #6508bd;
-    
+
  }   
 
 
