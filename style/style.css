@@ -297,7 +297,7 @@ body.dark .search-field i{
    
 
    .center_home  img {
-        width: 65%;
+        width: auto;
         height: auto;
         object-position:center;
         padding-bottom: 25px;
@@ -305,6 +305,7 @@ body.dark .search-field i{
         display: flex;
 		text-align:center;
         border-style: outset;
+        border-color: #6508bd;
   	
     }    
 
