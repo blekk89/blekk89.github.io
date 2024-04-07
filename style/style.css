@@ -304,6 +304,7 @@ body.dark .search-field i{
         padding-top: 25px;
         display: flex;
 		text-align:center;
+        border-style: outset;
   	
     }    
 
@@ -343,8 +344,6 @@ body.dark .search-field i{
 .center_home {
 	
 	margin:auto;
-    border-style: outset;
-	
 	}	
 
 
