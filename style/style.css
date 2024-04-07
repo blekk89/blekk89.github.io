@@ -311,19 +311,19 @@ body.dark .search-field i{
 
     footer {
 	
-        background-color:#6508bd;
+        background-color:#0c0116;
         color:#FFF;
         height:100px;
         width: auto;
         margin: auto;
-        padding-top: 50px;
+        padding-top: 30px;
         
 	}
 
 
     h2 {
 
-        color: #08010f;
+        color: #6508bd;
 
     }
 	
@@ -354,6 +354,7 @@ body.dark .search-field i{
     background-color: #f2f8fd;
     margin: auto;
     border-top: #6508bd;
+    padding-top: 20px;
 
  }   
 
