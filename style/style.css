@@ -310,13 +310,12 @@ body.dark .search-field i{
     }    
 
     footer {
-	
-        background-color:#0c0116;
-        color:#FFF;
-        height:100px;
-        width: auto;
-        margin: auto;
         padding-top: 30px;
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        background-color: var(--nav-color);
+        z-index: 100;
         
 	}
 
