@@ -314,8 +314,9 @@ body.dark .search-field i{
         background-color:#6508bd;
         color:#FFF;
         height:100px;
-        padding: 0;
+        width: auto;
         margin: auto;
+        padding-top: 50px;
         
 	}
 
