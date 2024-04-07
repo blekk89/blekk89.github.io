@@ -315,14 +315,14 @@ body.dark .search-field i{
         color:#FFF;
         height:100px;
         padding: 0;
-        border-bottom-right-radius:150px;
-        border-top-left-radius:150px;
+        margin: auto;
+        
 	}
 
 
     h2 {
 
-        color: #6508bd;
+        color: #08010f;
 
     }
 	
