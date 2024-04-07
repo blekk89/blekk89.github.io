@@ -302,6 +302,7 @@ body.dark .search-field i{
         object-position:center;
         padding-bottom: 25px;
         padding-top: 25px;
+        display: block;
         border-style: outset;
         border-color: #6508bd;
   	
