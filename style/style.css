@@ -343,8 +343,7 @@ body.dark .search-field i{
 .center_home {
 	
 	margin:auto;
-    border: #0b0114;
-    border-width: 10px;
+    border-style: outset;
 	
 	}	
 
