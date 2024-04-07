@@ -318,6 +318,8 @@ body.dark .search-field i{
         bottom:0px;
         color: #FFF;
         font-size: 12px;
+        position: bottom;
+        bottom: 0;
 	}
 
 
