@@ -305,6 +305,7 @@ body.dark .search-field i{
         display: block;
         border-style: outset;
         border-color: #6508bd;
+        border-radius: 20px;
   	
     }    
 
@@ -345,6 +346,13 @@ body.dark .search-field i{
 	
 	margin:auto;
 	}	
+
+
+ .text_home {
+
+
+    background-color: #CCC;
+ }   
 
 
     /* style de la page service */
