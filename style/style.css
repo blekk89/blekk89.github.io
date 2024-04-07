@@ -350,8 +350,10 @@ body.dark .search-field i{
 
  .text_home {
 
-
-    background-image: url('img/textbg.jpg');
+    background-color: #f2f8fd;
+    margin: 25px;
+    border-top: #6508bd;
+    
  }   
 
 
