@@ -306,9 +306,8 @@ body.dark .search-field i{
         padding-top: 25px;
         display: flex;
 		text-align:center;
-        background-color: #b9b7bb;
-        border: #6508bd;
-        border-width: 2px;
+        border: #0b0114;
+        border-width: 10px;
         	
     }    
 
@@ -400,10 +399,7 @@ body.dark .search-field i{
 
 
      /*style du carousel home page*/
-.carouselExampleDark img{
-    padding-top: 50px;
-}     
-
+    
 $carousel-control-color:             $white;
 $carousel-control-width:             15%;
 $carousel-control-opacity:           .5;
