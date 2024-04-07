@@ -399,6 +399,9 @@ body.dark .search-field i{
 
 
      /*style du carousel home page*/
+.carouselExampleDark img{
+    padding-top: 50px;
+}     
 
 $carousel-control-color:             $white;
 $carousel-control-width:             15%;
