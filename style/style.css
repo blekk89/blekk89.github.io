@@ -315,7 +315,6 @@ body.dark .search-field i{
         height: 100px;
         width: 100%;
         background-color: var(--nav-color);
-        z-index: 100;
         
 	}
 
