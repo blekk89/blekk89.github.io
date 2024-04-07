@@ -298,9 +298,12 @@ body.dark .search-field i{
 }  
 
     img {
-        width: 60%;
+        width: 75%;
         height: auto;
         object-position:center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: darkgrey;
         display: center;
 		text-align:center;
         padding-top: 50px;
