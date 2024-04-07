@@ -297,7 +297,7 @@ body.dark .search-field i{
    
 
    .center_home  img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
         object-position:center;
         padding-bottom: 25px;
