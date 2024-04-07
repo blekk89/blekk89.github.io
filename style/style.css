@@ -301,12 +301,13 @@ body.dark .search-field i{
         width: 75%;
         height: auto;
         object-position:center;
-        padding-bottom: 20px;
-        padding-top: 10px;
+        padding-bottom: 25px;
+        padding-top: 25px;
         display: flex;
 		text-align:center;
-        padding-top: 50px;
-        background-color: #6508bd;
+        background-color: #b9b7bb;
+        border: #6508bd;
+        border-width: 2px;
         	
     }    
 
