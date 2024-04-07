@@ -311,7 +311,6 @@ body.dark .search-field i{
 
     footer {
         padding-top: 10px;
-        position: fixed;
         height: 70px;
         width: 100%;
         background-color: #120133;
@@ -319,7 +318,7 @@ body.dark .search-field i{
         bottom:0px;
         color: #FFF;
         font: size 12px;
-        
+        align-self: flex-end;
 	}
 
 
