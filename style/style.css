@@ -303,7 +303,7 @@ body.dark .search-field i{
         padding-bottom: 10px;
         padding-top: 10px;
         display: block;
-        border-style: outset;
+        border-style: outset 2px;
         border-color: #6508bd;
         border-radius: 20px;
   	
@@ -327,7 +327,7 @@ body.dark .search-field i{
     h2 {
 
         border-bottom: #6508bd outset 2px;
-        color:  #6508bd;
+        text-decoration-color:  #6508bd;
     }
 	
    html {	
