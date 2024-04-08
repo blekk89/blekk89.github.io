@@ -310,8 +310,7 @@ body.dark .search-field i{
   	
     }    
 /* ===== footer ===== */
-    footer {
-        background-color: #120133;
+    footer p{
         color: #FFF;
         font-size: 12px;
 	}
