@@ -72,6 +72,21 @@ function myFunction() {
   }
 } 
 
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+} 
 
     </script>
  <!-- ===== script adsense pug google===== -->
@@ -206,7 +221,7 @@ function myFunction() {
 <h2 align="center">Intelligence Artificielle</h2>
     <div class="text_home">
       <p>L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure. 
-        <span id="dots">...</span><span id="more">
+        <span id="dots1">...</span><span id="more1">
          Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes,
          stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde. Notre équipe d'experts en intelligence artificielle est à la pointe de l'innovation,
          développant des solutions personnalisées et évolutives qui tirent parti des dernières avancées technologiques en matière d'apprentissage automatique, de traitement du langage naturel,
@@ -214,7 +229,7 @@ function myFunction() {
          à personnaliser l'expérience utilisateur ou à anticiper les tendances du marché, nos solutions d'IA sur mesure sont conçues pour répondre à vos besoins spécifiques et vous donner un avantage concurrentiel sur le marché.
          Nous croyons fermement que l'IA peut être un moteur de progrès et de croissance, et nous nous engageons à travailler en partenariat avec vous pour réaliser votre vision et atteindre vos objectifs les plus ambitieux.
          Découvrez comment nos solutions d'intelligence artificielle peuvent transformer votre entreprise et ouvrir de nouvelles possibilités infinies dans un monde de plus en plus connecté et intelligent. Bienvenue dans l'ère de l'intelligence artificielle avec AKN Consulting !</span></p>
-        <button onclick="myFunction()" id="myBtn">Read more</button> 
+        <button onclick="myFunction1()" id="myBtn1">Read more</button> 
       <div align="center" ><a href="https://app.powerbi.com/reportEmbed?reportId=d05ba2ab-313e-47e0-af93-3cad1c5f26d0&autoAuth=true&ctid=ba20ce3b-7602-4e01-95d0-4a270aec29ae">Voir Un exemple de rapport Dynamique</a></div>
 </div>
 <p>&nbsp;</p>
