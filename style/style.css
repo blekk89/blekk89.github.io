@@ -317,6 +317,8 @@ body.dark .search-field i{
 
     .copyright {
        background-color: #120133;
+       position:relative;
+       width: 100%;
     }
 
 
