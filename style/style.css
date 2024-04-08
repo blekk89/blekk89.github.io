@@ -300,8 +300,8 @@ body.dark .search-field i{
         max-width: 75%;
         height: auto;
         object-position:center;
-        padding-bottom: 25px;
-        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
         display: block;
         border-style: outset;
         border-color: #6508bd;
