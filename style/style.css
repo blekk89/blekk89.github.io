@@ -308,7 +308,7 @@ body.dark .search-field i{
         border-radius: 20px;
   	
     }    
-
+/* ===== footer ===== */
     .bg-body-tertiary {
         background-color: #120133;
         left:0px;
@@ -318,7 +318,18 @@ body.dark .search-field i{
         bottom: 0;
 	}
 
+    .text-body{
+        color: #FFF;
 
+    }
+
+
+    .container p-4 pb-0{
+
+        background-color: #120133;
+    }
+
+/* ===== footer end ===== */
     h2 {
 
         border-bottom: #6508bd outset 2px;
