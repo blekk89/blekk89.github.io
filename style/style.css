@@ -309,7 +309,7 @@ body.dark .search-field i{
   	
     }    
 /* ===== footer ===== */
-    .bg-body-tertiary {
+    footer {
         background-color: #120133;
         color: #FFF;
         font-size: 12px;
