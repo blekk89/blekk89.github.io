@@ -27,6 +27,9 @@ body{
     background-color: #120133;  
     background-size: cover;
     background-image: image('xx.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 
 }
 
