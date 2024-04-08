@@ -309,17 +309,12 @@ body.dark .search-field i{
   	
     }    
 
-    #footer {
-        padding-top: 5px;
-        height: 30px;
-        width: 100%;
+    .bg-body-tertiary {
         background-color: #120133;
         left:0px;
         bottom:0px;
         color: #FFF;
         font-size: 12px;
-        display: block;
-        position: fixed;
         bottom: 0;
 	}
 
