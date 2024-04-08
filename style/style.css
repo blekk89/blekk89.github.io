@@ -320,7 +320,9 @@ body.dark .search-field i{
        position:relative;
        width: 100%;
     }
-
+ .container_footer {
+    background-color: #CCC;
+ }
 
 /* ===== footer end ===== */
     h2 {
