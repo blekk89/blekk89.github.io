@@ -26,6 +26,7 @@ body{
     height: 100vh;
     background-color: #120133;  
     background-size: cover;
+    background-image: image('xx.jpg');
 
 }
 
