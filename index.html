@@ -54,6 +54,25 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
+//fonction see more page home
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+} 
+
+
     </script>
  <!-- ===== script adsense pug google===== -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
@@ -159,15 +178,10 @@ function MM_swapImage() { //v3.0
      <p>&nbsp;</p>
       <h2 align="center">Reporting Dashboard</h2>
       <div class="text_home">
-        <p align="center">Dans le paysage commercial d'aujourd'hui, l'accès à des informations précises et exploitables est essentiel pour prendre des décisions éclairées. Le reporting et les tableaux de bord jouent un rôle crucial dans cette démarche, en fournissant des données clés sous une forme visuelle et facile à comprendre.
+        <p>Dans le paysage commercial d'aujourd'hui, l'accès à des informations précises et exploitables est essentiel pour prendre des décisions éclairées. Le reporting et les tableaux de bord jouent un rôle crucial dans cette démarche, en fournissant des données clés sous une forme visuelle et facile à comprendre.<span id="dots">...</span>
+        <span id="more">Chez AKN Consulting, nous comprenons l'importance d'avoir une vision claire de vos données pour piloter votre entreprise vers le succès. Nos solutions de reporting et de tableaux de bord sont conçues pour vous offrir une analyse approfondie de vos performances, vous permettant ainsi de mieux comprendre vos forces, vos faiblesses et les opportunités à saisir. Que vous ayez besoin de suivre vos ventes, d'analyser vos données financières, de surveiller vos indicateurs de performance clés (KPI) ou de visualiser l'efficacité de vos campagnes marketing, nos tableaux de bord interactifs et personnalisables vous offrent une vue d'ensemble en temps réel de votre activité. Notre équipe d'experts est là pour vous accompagner à chaque étape, de la conception et du développement de vos tableaux de bord à l'interprétation des données et à la formulation de stratégies basées sur des informations exploitables. Découvrez comment nos solutions de reporting et de tableaux de bord peuvent vous aider à transformer vos données en insights et à prendre des décisions éclairées pour le succès de votre entreprise.</span></p>
 
-          Chez AKN Consulting, nous comprenons l'importance d'avoir une vision claire de vos données pour piloter votre entreprise vers le succès. Nos solutions de reporting et de tableaux de bord sont conçues pour vous offrir une analyse approfondie de vos performances, vous permettant ainsi de mieux comprendre vos forces, vos faiblesses et les opportunités à saisir.
-          
-          Que vous ayez besoin de suivre vos ventes, d'analyser vos données financières, de surveiller vos indicateurs de performance clés (KPI) ou de visualiser l'efficacité de vos campagnes marketing, nos tableaux de bord interactifs et personnalisables vous offrent une vue d'ensemble en temps réel de votre activité.
-          
-          Notre équipe d'experts est là pour vous accompagner à chaque étape, de la conception et du développement de vos tableaux de bord à l'interprétation des données et à la formulation de stratégies basées sur des informations exploitables.
-          
-          Découvrez comment nos solutions de reporting et de tableaux de bord peuvent vous aider à transformer vos données en insights et à prendre des décisions éclairées pour le succès de votre entreprise.</p>
+<button onclick="myFunction()" id="myBtn">Read more</button> 
           <div align="center"><a href="https://app.powerbi.com/reportEmbed?reportId=601493aa-68e9-4106-aa71-14f90777571b&autoAuth=true&ctid=ba20ce3b-7602-4e01-95d0-4a270aec29ae">Voir Un exemple de rapport Dynamique</a></div>
       </div>
       <p>&nbsp;</p></p> 
