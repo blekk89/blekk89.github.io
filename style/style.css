@@ -313,6 +313,7 @@ body.dark .search-field i{
         background-color: #120133;
         color: #FFF;
         font-size: 12px;
+        position: inherit;
 	}
 
     .container{
