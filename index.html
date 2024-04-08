@@ -88,6 +88,38 @@ function myFunction1() {
   }
 } 
 
+function myFunction0() {
+  var dots0 = document.getElementById("dots0");
+  var moreText0 = document.getElementById("more0");
+  var btnText0 = document.getElementById("myBtn0");
+
+  if (dots0.style.display === "none") {
+    dots0.style.display = "inline";
+    btnText0.innerHTML = "Read more";
+    moreText0.style.display = "none";
+  } else {
+    dots0.style.display = "none";
+    btnText0.innerHTML = "Read less";
+    moreText0.style.display = "inline";
+  }
+} 
+
+function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var btnText2 = document.getElementById("myBtn2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText2.innerHTML = "Read more";
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText2.innerHTML = "Read less";
+    moreText2.style.display = "inline";
+  }
+} 
+
     </script>
  <!-- ===== script adsense pug google===== -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
@@ -202,14 +234,14 @@ function myFunction1() {
         <div class="text_home">
           <p>La Business Intelligence (BI) c'est une stratégie puissante qui permet aux entreprises de tirer parti de leurs données pour prendre des décisions éclairées et proactives.
             À une époque où les données abondent à un rythme exponentiel,
-            la capacité à extraire des informations précieuses à partir de ces données devient un avantage concurrentiel crucial pour toute organisation.<span id="dots">...</span><span id="more">
+            la capacité à extraire des informations précieuses à partir de ces données devient un avantage concurrentiel crucial pour toute organisation.<span id="dots0">...</span><span id="more0">
             Chez AKN Consulting, nous croyons fermement au potentiel transformateur de la Business Intelligence. 
             Nous sommes passionnés par l'accompagnement des entreprises dans leur parcours vers l'excellence analytique, en mettant à leur disposition les outils,
             les compétences et l'expertise nécessaires pour exploiter pleinement le pouvoir de leurs données.
             Que vous soyez une petite entreprise cherchant à optimiser vos opérations ou une grande entreprise visant à rester agile dans un marché en constante évolution,
             notre équipe hautement qualifiée est là pour vous aider à débloquer de nouvelles perspectives, à identifier des tendances cruciales et à prendre des décisions stratégiques éclairées.
             Explorez notre gamme de solutions de Business Intelligence et découvrez comment nous pouvons vous aider à transformer vos données en résultats tangibles.</span></p>
-           <button onclick="myFunction0()" id="myBtn">Read more</button> 
+           <button onclick="myFunction0()" id="myBtn0">Read more</button> 
         <div align="center"><a href="https://app.powerbi.com/reportEmbed?reportId=f6405c68-8660-4ea3-803f-05a2cd19fd0c&autoAuth=true&ctid=ba20ce3b-7602-4e01-95d0-4a270aec29ae">Voir Un exemple de rapport Dynamique</a></div>
         </div>
         <p>&nbsp;</p>
@@ -220,10 +252,11 @@ function myFunction1() {
      <p>&nbsp;</p>
 <h2 align="center">Intelligence Artificielle</h2>
     <div class="text_home">
-      <p>L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure. 
+      <p>L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure.
+        Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes,
+         stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde. 
         <span id="dots1">...</span><span id="more1">
-         Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes,
-         stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde. Notre équipe d'experts en intelligence artificielle est à la pointe de l'innovation,
+         Notre équipe d'experts en intelligence artificielle est à la pointe de l'innovation,
          développant des solutions personnalisées et évolutives qui tirent parti des dernières avancées technologiques en matière d'apprentissage automatique, de traitement du langage naturel,
          de vision par ordinateur et bien plus encore. Que vous cherchiez à automatiser des tâches répétitives, à optimiser vos processus métier, 
          à personnaliser l'expérience utilisateur ou à anticiper les tendances du marché, nos solutions d'IA sur mesure sont conçues pour répondre à vos besoins spécifiques et vous donner un avantage concurrentiel sur le marché.
@@ -241,9 +274,10 @@ function myFunction1() {
 <h2 align="center">Data Analytics</h2>
 <div class="text_home">
   <p>L'analyse des données est au cœur de la prise de décision efficace dans le monde des affaires d'aujourd'hui.
-    <span id="dots">...</span><span id="more">
-     Chez AKN Consulting, nous comprenons l'importance cruciale de tirer parti de vos données pour obtenir des insights précieux qui peuvent stimuler la croissance,
-     améliorer l'efficacité opérationnelle et conduire à des résultats tangibles. Notre équipe d'experts en analyse des données est spécialisée dans l'extraction,
+    Chez AKN Consulting, nous comprenons l'importance cruciale de tirer parti de vos données pour obtenir des insights précieux qui peuvent stimuler la croissance,
+     améliorer l'efficacité opérationnelle et conduire à des résultats tangibles.
+    <span id="dots2">...</span><span id="more2">
+      Notre équipe d'experts en analyse des données est spécialisée dans l'extraction,
      la transformation et l'interprétation de données pour vous fournir des informations exploitables et pertinentes. Que vous cherchiez à comprendre les tendances du marché,
      à segmenter votre clientèle, à optimiser vos processus métier ou à prévoir les performances futures, nous avons les compétences et les ressources nécessaires pour vous aider à réussir.
      Grâce à nos outils et techniques d'analyse avancés, nous transformons vos données brutes en tableaux de bord interactifs, en visualisations percutantes et en rapports détaillés qui vous permettent de prendre des décisions éclairées en temps réel.
@@ -251,7 +285,7 @@ function myFunction1() {
      notre engagement envers l'excellence et l'innovation nous permet de fournir des solutions d'analyse des données de classe mondiale qui vous aident à rester compétitif dans un marché en constante évolution. 
      Découvrez comment nos solutions d'analyse des données peuvent transformer vos défis en opportunités et vous aider à atteindre de nouveaux sommets dans votre parcours vers le succès. Bienvenue dans l'ère de l'analyse des données avec AKN Consulting !</span></p>
     
-    <button onclick="myFunction()" id="myBtn">Read more</button> 
+    <button onclick="myFunction2()" id="myBtn2">Read more</button> 
       <div align="center"><a href="https://app.powerbi.com/reportEmbed?reportId=342e8f53-9619-4fa8-91ac-b7aa44962a0e&autoAuth=true&ctid=ba20ce3b-7602-4e01-95d0-4a270aec29ae">Voir Un exemple de rapport Dynamique</a></div>
     </div>
       
