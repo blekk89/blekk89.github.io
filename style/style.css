@@ -22,10 +22,11 @@
 }
 
 body{
-	
+	width: 100%;
     height: 100vh;
     background-color: #120133;  
     background-size: cover;
+
 }
 
 
@@ -313,7 +314,6 @@ body.dark .search-field i{
         background-color: #120133;
         color: #FFF;
         font-size: 12px;
-        position: absolute;
 	}
 
 
