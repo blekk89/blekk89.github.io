@@ -317,11 +317,11 @@ body.dark .search-field i{
 
     .copyright {
        background-color: #120133;
-       position:relative;
-       width: 100%;
+       
     }
  .container_footer {
     background-color: #CCC;
+    font-size: 12px;
  }
 
 /* ===== footer end ===== */
