@@ -301,7 +301,7 @@ body.dark .search-field i{
         height: auto;
         object-position:center;
         display: block;
-        border-style: outset;
+        border-style: ridge;
         border-color: #120133;
         border-radius: 20px;
   	
