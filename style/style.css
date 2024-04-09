@@ -344,6 +344,11 @@ body.dark .search-field i{
         border-bottom: #6508bd outset 2px;
         color: #ae61f5;
     }
+    h3 {
+
+        border-bottom: #6508bd outset 10px;
+        color: #ae61f5;
+    }
 	
    html {	
         max-width: 90%;	
@@ -386,6 +391,9 @@ body.dark .search-field i{
 
 
     /* style de la page service */
+
+
+
 
 
     body{margin-top:20px;}
