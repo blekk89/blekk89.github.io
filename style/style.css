@@ -334,6 +334,8 @@ body.dark .search-field i{
         padding-bottom: 10px;
         background-size: cover;
         display: block;
+        max-width: 90%;
+        margin: auto;
         
 
 }
