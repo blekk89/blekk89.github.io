@@ -325,9 +325,13 @@ body.dark .search-field i{
 
 /* ===== footer end ===== */
 
-
+/* ===== background img home ===== */
 .designImg{
-        background-color: #120133;
+        background-image: url("../img/imgbg.png");
+        border-top-left-radius: 75px;
+        border-top-right-radius: 75px;
+        border-bottom-left-radius: 75px;
+        border-bottom-right-radius: 75px;
 
 }
     h2 {
