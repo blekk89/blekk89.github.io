@@ -26,7 +26,7 @@ body{
     height: 100vh;
     background-color: #120133;  
     background-size: cover;
-    background-image: url("../img/xx.jpg");
+    background-image: url("././img/xx.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
