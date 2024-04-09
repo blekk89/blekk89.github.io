@@ -328,12 +328,14 @@ body.dark .search-field i{
 /* ===== background img home ===== */
 .designImg{
         background-image: url("../img/imgbg.png");
-        border-top-left-radius: 75px;
-        border-top-right-radius: 75px;
-        border-bottom-left-radius: 75px;
-        border-bottom-right-radius: 75px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
         padding-top: 25px;
         padding-bottom: 25px;
+        background-size: cover;
+        width: 100%;
 
 }
     h2 {
