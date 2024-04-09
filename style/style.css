@@ -332,6 +332,8 @@ body.dark .search-field i{
         border-top-right-radius: 75px;
         border-bottom-left-radius: 75px;
         border-bottom-right-radius: 75px;
+        padding-top: 25px;
+        padding-bottom: 25px;
 
 }
     h2 {
