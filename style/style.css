@@ -300,11 +300,9 @@ body.dark .search-field i{
         max-width: 75%;
         height: auto;
         object-position:center;
-        padding-bottom: 10px;
-        padding-top: 10px;
         display: block;
         border-style: outset;
-        border-color: #6508bd;
+        border-color: #120133;
         border-radius: 20px;
   	
     }    
@@ -333,8 +331,9 @@ body.dark .search-field i{
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
         padding-top: 25px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         background-size: cover;
+        display: block;
         
 
 }
