@@ -336,6 +336,8 @@ body.dark .search-field i{
         display: block;
         max-width: 100%;
         margin: auto;
+        border-style: ridge;
+        border-color: #CCC;
         
 
 }
