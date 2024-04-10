@@ -315,8 +315,8 @@ body.dark .search-field i{
     .copyright {
        background-color: #120133;
        height: 200px;
-       text-align: justify;
-       
+       border-style: double #CCC 2px;
+
     }
  .container_footer {
     background-color: #CCC;
