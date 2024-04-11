@@ -399,6 +399,9 @@ body.dark .search-field i{
  .bg_carousel_style{
      background-image: url("../img/logo-png-akn.png");
      background-size: cover;
+     display: block;
+     width: 100%;
+     position: fixed;
  }
 
 
