@@ -407,8 +407,11 @@ body.dark .search-field i{
 
         background-image: url("../img/textbg.jpg");
         background-size: cover;
-        border-radius: 5px solid #6508bd;
+        border-style: solid;
+        border-color: #6508bd;
         color: #120133;
+        border-radius: 10px;
+        padding: 5px 5px 5px 5px;
 }
 
 
