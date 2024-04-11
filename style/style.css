@@ -402,10 +402,13 @@ body.dark .search-field i{
 
  }   
 
-/* ===== carousel home page design  ===== */
- .bg_carousel_style{
-   
- }
+/* ===== read more boutton  ===== */
+.read_morebtn {
+
+        background-image: url("../img/textbg.jpg");
+        background-size: cover;
+        border-radius: 5px;
+}
 
 
     /* style de la page service */
