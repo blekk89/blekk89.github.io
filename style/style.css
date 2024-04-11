@@ -407,10 +407,12 @@ body.dark .search-field i{
 
         background-image: url("../img/violetbg.jpg");
         background-size: cover;
+        width: 200px;
         border-style: groove;
-        border-color: #1005e2;
+        border-color: #f1eef6;
         color: #f1eef6;
         border-radius: 10px;
+        border-width: 5px;
         padding: 5px 5px 5px 5px;
 }
 
