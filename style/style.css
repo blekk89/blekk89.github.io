@@ -395,6 +395,12 @@ body.dark .search-field i{
 
  }   
 
+/* ===== carousel home page design  ===== */
+ .bg_carousel_style{
+     background-image: url("../img/logo-png-akn.png");
+     background-size: cover;
+ }
+
 
     /* style de la page service */
 
