@@ -358,6 +358,8 @@ body.dark .search-field i{
     .h3_design{
 
         background-image: url("../img/textbg.jpg");
+        background-size: cover;
+
     }
 	
    html {	
