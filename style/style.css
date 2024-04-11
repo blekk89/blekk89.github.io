@@ -354,6 +354,11 @@ body.dark .search-field i{
         border-bottom: #6508bd outset 10px;
         color: #ae61f5;
     }
+
+    .h3_design{
+
+        background-image: url("../img/textbg.jpg");
+    }
 	
    html {	
         max-width: 90%;	
