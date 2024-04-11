@@ -401,7 +401,7 @@ body.dark .search-field i{
      background-size: cover;
      display: block;
      width: 100%;
-     position: fixed;
+     margin: 0;
  }
 
 
