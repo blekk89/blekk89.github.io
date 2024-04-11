@@ -397,11 +397,8 @@ body.dark .search-field i{
 
 /* ===== carousel home page design  ===== */
  .bg_carousel_style{
-     background-image: url("../img/logo-png-akn.png");
-     background-size: cover;
-     display: block;
+     background-color: #510593;
      width: 100%;
-     margin: 0;
  }
 
 
