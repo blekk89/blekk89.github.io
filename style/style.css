@@ -405,11 +405,11 @@ body.dark .search-field i{
 /* ===== read more boutton  ===== */
 .read_morebtn {
 
-        background-image: url("../img/textbg.jpg");
+        background-image: url("../img/violetbg.jpg");
         background-size: cover;
-        border-style: solid;
-        border-color: #6508bd;
-        color: #120133;
+        border-style: groove;
+        border-color: #1005e2;
+        color: #f1eef6;
         border-radius: 10px;
         padding: 5px 5px 5px 5px;
 }
