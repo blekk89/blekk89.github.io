@@ -123,20 +123,6 @@ function myFunction2() {
   }
 } 
 
-var btn = $('#buttonTop');
-
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
     </script>
     
       
@@ -146,7 +132,6 @@ btn.on('click', function(e) {
 </head>
 <body onLoad="MM_preloadImages('../CORSO HARVARD WEB DEVELOPPING 2023/img/logo_ada.jpg')">
   <!-- Back to top button -->
-<a id="buttonTop"></a>
     <nav>
         <div class="nav-bar">
             <i class='bx bx-menu sidebarOpen' ></i>
