@@ -418,7 +418,7 @@ body.dark .search-field i{
 }
 
 
-#myBtn {
+#myBtnTOP {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -434,7 +434,7 @@ body.dark .search-field i{
     border-radius: 4px;
   }
 
-  #myBtn:hover {
+  #myBtnTOP:hover {
     background-color: #555;
 }
 
