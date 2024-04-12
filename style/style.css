@@ -414,6 +414,7 @@ body.dark .search-field i{
         border-radius: 10px;
         border-width: 5px;
         padding: 5px 5px 5px 5px;
+        position: center;
 }
 
 
