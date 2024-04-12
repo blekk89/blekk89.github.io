@@ -434,6 +434,9 @@ body.dark .search-field i{
     border-radius: 4px;
   }
 
+  #myBtn:hover {
+    background-color: #555;
+
     /* style de la page service */
 
 
