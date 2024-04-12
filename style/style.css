@@ -419,7 +419,7 @@ body.dark .search-field i{
 
 
  /* Styles top button */
-#button {
+#buttonTop {
     display: inline-block;
     background-color: #FF9800;
     width: 50px;
@@ -435,7 +435,7 @@ body.dark .search-field i{
     visibility: hidden;
     z-index: 1000;
   }
-  #button::after {
+  #buttonTop::after {
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -444,14 +444,14 @@ body.dark .search-field i{
     line-height: 50px;
     color: #fff;
   }
-  #button:hover {
+  #buttonTop:hover {
     cursor: pointer;
     background-color: #333;
   }
-  #button:active {
+  #buttonTop:active {
     background-color: #555;
   }
-  #button.show {
+  #buttonTop.show {
     opacity: 1;
     visibility: visible;
   }
