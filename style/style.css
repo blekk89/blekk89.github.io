@@ -405,7 +405,7 @@ body.dark .search-field i{
 /* ===== read more boutton  ===== */
 .read_morebtn {
 
-        background-image: url("../img/violetbg.jpg");
+        background-color: #510593;
         background-size: cover;
         width: 200px;
         border-style: solid;
