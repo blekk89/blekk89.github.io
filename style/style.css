@@ -411,8 +411,8 @@ body.dark .search-field i{
         border-style: solid;
         border-color: #0f28eb;
         color: #f1eef6;
-        border-radius: 2px;
-        border-width: 5px;
+        border-radius: 5px;
+        border-width: 2px;
         padding: 5px 5px 5px 5px;
         position: center;
 }
