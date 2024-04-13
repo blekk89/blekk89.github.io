@@ -480,7 +480,7 @@ body.dark .search-field i{
     background-color: #4e05a05b;
     color: white;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
   }
   #topBtn:hover {
