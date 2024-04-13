@@ -47,6 +47,23 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
+
+//top button fonction
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("topBtn").style.display = "block";
+  } else {
+    document.getElementById("topBtn").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
     </script>
 </head>
 <body onLoad="MM_preloadImages('../CORSO HARVARD WEB DEVELOPPING 2023/img/logo_ada.jpg')">
@@ -251,5 +268,7 @@ body.addEventListener("click" , e =>{
     <!-- Copyright -->
   <!-- Copyright -->
 </footer>
+<!-- top button -->
+<button onclick="topFunction()" id="topBtn" title="Go to top">🔝</button>
 </body>
 </html>
