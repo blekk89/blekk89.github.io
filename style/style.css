@@ -357,6 +357,8 @@ background-color: #120133;
 width: 100%;
 margin: auto;
 padding: auto;
+border-top-left-radius: 150px;
+border-bottom-right-radius: 150px;
 
 
 }
