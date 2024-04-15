@@ -371,6 +371,7 @@ footer {
    html {	
         max-width: 95%;	
 		margin: auto;
+        margin-bottom: 0;
 		scroll-behavior: smooth;
     }
 	
