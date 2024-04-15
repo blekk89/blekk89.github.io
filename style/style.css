@@ -335,8 +335,8 @@ footer {
 .designImg{
         background-image: url("../img/bggreyIMG.jpg");
         border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-left-radius: 15px;
+        border-top-right-radius: 300px;
+        border-bottom-left-radius: 300px;
         border-bottom-right-radius: 15px;
         padding-top: 25px;
         padding-bottom: 10px;
