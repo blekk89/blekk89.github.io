@@ -323,6 +323,7 @@ footer {
        border-color: #CCC;
        text-align: center;
        margin-bottom: 0;
+       width: 100%;
     }
  .container_footer {
     background-color: #CCC;
