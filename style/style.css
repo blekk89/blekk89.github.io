@@ -415,7 +415,8 @@ border-bottom-right-radius: 300px;
 
     background-color: #f2f8fd;
     margin: auto;
-    border-bottom: whitesmoke outset 10px;
+    background-image: url("../img/textbg.jpg");
+    background-size: cover;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
