@@ -356,7 +356,7 @@ footer {
 background-color: black;
 width: 100%;
 margin: auto;
-padding-top: 10px;
+padding-top: 0;
 border-top-left-radius: 300px;
 border-bottom-right-radius: 300px;
 
@@ -415,7 +415,7 @@ border-bottom-right-radius: 300px;
 
     background-color: #f2f8fd;
     margin: auto;
-    border-bottom: url("../img/textbg.jpg");
+    border-bottom:#4e05a05b ;
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 20px;
