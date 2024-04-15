@@ -364,7 +364,7 @@ body.dark .search-field i{
 	
    html {	
         max-width: 95%;	
-		margin: 0;
+		margin: auto;
 		scroll-behavior: smooth;
     }
 	
