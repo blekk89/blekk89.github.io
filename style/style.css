@@ -334,10 +334,10 @@ footer {
 /* ===== background img home ===== */
 .designImg{
         background-image: url("../img/bggreyIMG.jpg");
-        border-top-left-radius: 15px;
-        border-top-right-radius: 300px;
-        border-bottom-left-radius: 300px;
-        border-bottom-right-radius: 15px;
+        border-top-left-radius: 300px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 300px;
         padding-top: 25px;
         padding-bottom: 10px;
         background-size: cover;
