@@ -333,7 +333,7 @@ footer {
 
 /* ===== background img home ===== */
 .designImg{
-        background-image: url("../img/bggreyIMG.jpg");
+        background-color: #f2f8fd;
         border-top-left-radius: 300px;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 0px;
