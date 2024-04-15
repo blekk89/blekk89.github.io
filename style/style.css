@@ -301,11 +301,18 @@ body.dark .search-field i{
         height: auto;
         object-position:center;
         display: block;
-        border-style: ridge;
-        border-color: #CCC;
         border-radius: 50%;
   	
-    }    
+    }  
+    
+    .center_home_service img {
+
+        max-width: 75%;
+        height: auto;
+        object-position:center;
+        display: block;
+        border-radius: 5px;
+    }
 /* ===== footer ===== */
 footer {
 
@@ -371,7 +378,7 @@ border-bottom-right-radius: 300px;
     }
     h3 {
 
-        border-bottom: #0f28eb outset 10px;
+        border-bottom: #4e05a05b outset 10px;
         color: #0f28eb;
     }
 
