@@ -24,7 +24,7 @@
 body{
 	width: 100%;
     height: 100vh;
-    background-color: black;  
+    background-color: white;  
 
 }
 
@@ -366,7 +366,6 @@ body.dark .search-field i{
         max-width: 95%;	
 		margin: auto;
 		scroll-behavior: smooth;
-        background-color: black;
     }
 	
 	
