@@ -415,8 +415,7 @@ border-bottom-right-radius: 300px;
 
     background-color: #f2f8fd;
     margin: auto;
-    border-bottom:#4e05a05b ;
-    background-size: cover;
+    border-bottom: #4e05a05b outset 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
