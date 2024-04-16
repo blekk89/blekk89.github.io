@@ -379,12 +379,12 @@ border-bottom-right-radius: 300px;
     h3 {
 
         border-bottom: #4e05a05b outset 10px;
-        color: #0f28eb;
+        color: whitesmoke;
     }
 
     .h3_design{
 
-        background-image: url("../img/textbg.jpg");
+        background-image: url("../img/xx.jpg");
         background-size: cover;
 
     }
