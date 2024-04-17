@@ -390,7 +390,7 @@ border-bottom-right-radius: 300px;
     }
 	
    html {	
-        max-width: 95%;	
+        max-width: 100%;	
 		margin: auto;
         margin-bottom: 0;
         padding-top: 0;
