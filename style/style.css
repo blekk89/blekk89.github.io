@@ -674,7 +674,7 @@ display: inline-block;
 border: ivory #000;
 animation-name: circle;
 animation-duration: 5s;
-animation-iteration-count:infinite;
+animation-iteration-count:0;
 
 
 }
@@ -698,7 +698,7 @@ display: inline-block;
 border: ivory #000;
 animation-name: circle2;
 animation-duration: 4s;
-animation-iteration-count:infinite;
+animation-iteration-count:0;
 
 
 }
@@ -722,7 +722,7 @@ display: inline-block;
 border: ivory #000;
 animation-name: circle3;
 animation-duration: 3s;
-animation-iteration-count:infinite;
+animation-iteration-count:0;
 
 
 }    
