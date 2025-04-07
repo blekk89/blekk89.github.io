@@ -626,8 +626,8 @@ padding-top: 50px;
 }
 
 @keyframes example {
-from {background-color: #a569bd;}
-to {background-color: rgba(51, 3, 83, 0.916);}
+from {background-color: #0a0a0a;}
+to {background-color: rgba(83, 3, 75, 0.778);}
 
 50% {transform:rotate(45deg);}
 
@@ -679,8 +679,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle2 {
-from {background-color: #2774fa1a;}
-to {background-color: #2774fa25;}
+from {background-color: #0b28ceea;}
+to {background-color: #2774fa62;}
 }
 
 
@@ -702,8 +702,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle3 {
-from {background-color: #048af721;;}
-to {background-color: #055ba222;}
+from {background-color: #0b6868f6;;}
+to {background-color: #05a2885e;}
 }
 
 
