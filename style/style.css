@@ -17,7 +17,7 @@ header {
     align-items: center;
     padding: 0px;
     padding-top: 70px;
-    background: #c0c0c0;
+    background: #24b7f6;
     position: fixed;
     width: 100%;
     top: 0;
@@ -26,7 +26,7 @@ header {
     z-index: 1000;
 }
 header.scrolled {
-    background: rgba(9, 9, 9, 0.837);
+    background: rgba(240, 237, 237, 0.837);
 }
 .logo {
     font-size: 24px;
@@ -302,7 +302,7 @@ header.scrolled {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image:url("../img/img2.jpg");
+    background-image:url("../img/web.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -326,7 +326,7 @@ header.scrolled {
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    background: rgb(3, 138, 12);
+    background: rgb(160, 2, 8);
     color: white;
     font-size: 18px;
     text-decoration: none;
@@ -629,7 +629,7 @@ padding-top: 50px;
 from {background-color: #0a0a0a;}
 to {background-color: rgba(152, 149, 151, 0.868);}
 
-50% {transform:rotate(45deg);}
+50% {transform:rotate(360deg);}
 
 
 
@@ -645,7 +645,7 @@ border-radius: 20px;
 border: 1px ivory rgb(23, 1, 74);
 animation-name: example;
 animation-duration: 5s;
-animation-iteration-count:infinite;
+animation-iteration-count: 1;
 
 }
 
@@ -666,7 +666,7 @@ animation:step-end;
 border-radius: 5%;
 max-width: 200px;
 height: 200px;
-background-color: #ce8af0ed;
+background-color: #2a013fed;
 padding: 0px;
 padding-top: 20px;
 margin: 10px;
@@ -697,7 +697,7 @@ margin: 10px;
 display: inline-block;
 border: ivory #000;
 animation-name: circle2;
-animation-duration: 4s;
+animation-duration: 5s;
 animation-iteration-count:0;
 
 
@@ -721,7 +721,7 @@ margin: 10px;
 display: inline-block;
 border: ivory #000;
 animation-name: circle3;
-animation-duration: 3s;
+animation-duration: 5s;
 animation-iteration-count:0;
 
 
