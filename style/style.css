@@ -617,8 +617,8 @@ margin: 20rem auto;
 .articles {
 flex: 1;
 display:inline-block;
-width: 275px;
-padding: 25px;
+width: 200px;
+padding: 10px;
 padding-top: 50px;
 
 
@@ -665,7 +665,7 @@ to {background-color: #a8a6a923;}
 
 border-radius: 5%;
 max-width: 200px;
-height: 100px;
+height: 200px;
 background-color: #ce8af0ed;
 padding: 0px;
 padding-top: 20px;
