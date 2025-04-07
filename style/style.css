@@ -627,7 +627,7 @@ padding-top: 50px;
 
 @keyframes example {
 from {background-color: #0a0a0a;}
-to {background-color: rgba(83, 3, 75, 0.778);}
+to {background-color: rgba(152, 149, 151, 0.868);}
 
 50% {transform:rotate(45deg);}
 
@@ -680,8 +680,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle2 {
-from {background-color: #0b28ceea;}
-to {background-color: #2774fa62;}
+    from {background-color: #f4b487b0;}
+    to {background-color: #a8a6a923;}
 }
 
 
@@ -704,8 +704,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle3 {
-from {background-color: #0b6868f6;;}
-to {background-color: #05a2885e;}
+    from {background-color: #f4b487b0;}
+    to {background-color: #a8a6a923;}
 }
 
 
