@@ -304,9 +304,10 @@ header.scrolled {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-image:url("../img/sb.gif");
+    margin: 0;
+    background-image:url("../img/artt.gif");
     background-position: center;
-    opacity: 0.2;
+    opacity: 0;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -339,7 +340,7 @@ header.scrolled {
     transition: background 0.3s;
 }
 .btn:hover {
-    background: rgba(4, 69, 2, 0.962);
+    background: rgba(77, 2, 4, 0.945);
 }
 .section {
     padding: 50px 20px;
