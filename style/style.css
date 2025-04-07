@@ -687,12 +687,12 @@ animation-iteration-count:infinite;
 
 .circleDesign2{
 
-border-radius: 50%;
-max-width: 325px;
-height: 325px;
+border-radius: 5%;
+max-width: 200px;
+height: 200px;
 background-color: #660213d4;
 padding: 0px;
-padding-top: 85px;
+padding-top: 20px;
 margin: 10px;
 display: inline-block;
 border: ivory #000;
@@ -711,12 +711,12 @@ animation-iteration-count:infinite;
 
 .circleDesign3{
 
-border-radius: 50%;
-max-width: 325px;
-height: 325px;
+border-radius: 5%;
+max-width: 200px;
+height: 200px;
 background-color: #055ba25e;
 padding: 0px;
-padding-top: 85px;
+padding-top: 20px;
 margin: 10px;
 display: inline-block;
 border: ivory #000;
