@@ -664,11 +664,11 @@ to {background-color: #a8a6a923;}
 .circleDesign{
 
 border-radius: 5%;
-max-width: 325px;
-height: 325px;
+max-width: 200px;
+height: 100px;
 background-color: #ce8af0ed;
-padding-left: 10px;
-padding-top: 85px;
+padding: 0px;
+padding-top: 20px;
 margin: 10px;
 display: inline-block;
 border: ivory #000;
