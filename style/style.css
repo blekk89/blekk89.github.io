@@ -658,7 +658,7 @@ animation:step-end;
 
 
 @keyframes circle {
-from {background-color: #a8a6a96c;}
+from {background-color: #ce8af0ed;}
 to {background-color: #a8a6a923;}
 }
 .circleDesign{
@@ -668,7 +668,7 @@ max-width: 325px;
 max-height: 325px;
 background-color: #ce8af0ed;
 padding: 0px;
-padding-top: 90px;
+padding-top: 45px;
 display: inline-block;
 border: ivory #000;
 animation-name: circle;
