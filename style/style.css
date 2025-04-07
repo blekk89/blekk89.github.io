@@ -658,14 +658,14 @@ animation:step-end;
 
 
 @keyframes circle {
-from {background-color: #250352ed;}
+from {background-color: #05b7057a;}
 to {background-color: #a8a6a923;}
 }
 .circleDesign{
 
 border-radius: 50%;
 max-width: 325px;
-max-height: 325px;
+height: 325px;
 background-color: #ce8af0ed;
 padding: 0px;
 padding-top: 25px;
