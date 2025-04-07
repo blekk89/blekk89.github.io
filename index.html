@@ -1,509 +1,313 @@
 <!DOCTYPE html>
-<!-- tag important pour les frameworks by mame magal-->
 <html lang="fr">
 <head>
-  <title>AKN-Accueil</title>
-  <link rel="icon" type="image/x-icon" href="/img/akn_fav.ico">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- ===== adsense karim pub ===== -->
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
-     crossorigin="anonymous"></script>
-
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="../style/style.css">
+     <!-- ===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>AKN Tech Consulting</title>
+    <style>
+       
         
-    <!-- ===== Boxicons CSS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-           <!-- ===== footer ===== -->
-<link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/footers/footer-3/assets/css/footer-3.css">
-
-
-    <style type="text/css">
-    h1 {
-	text-align: center;
-	font-size: 18px;
-}
-
     </style>
-    <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-
-//fonction see more page home
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Voir plus";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Voir moins";
-    moreText.style.display = "inline";
-  }
-} 
-
-function myFunction1() {
-  var dots1 = document.getElementById("dots1");
-  var moreText1 = document.getElementById("more1");
-  var btnText1 = document.getElementById("myBtn1");
-
-  if (dots1.style.display === "none") {
-    dots1.style.display = "inline";
-    btnText1.innerHTML = "Voir plus";
-    moreText1.style.display = "none";
-  } else {
-    dots1.style.display = "none";
-    btnText1.innerHTML = "Voir moins";
-    moreText1.style.display = "inline";
-  }
-} 
-
-function myFunction0() {
-  var dots0 = document.getElementById("dots0");
-  var moreText0 = document.getElementById("more0");
-  var btnText0 = document.getElementById("myBtn0");
-
-  if (dots0.style.display === "none") {
-    dots0.style.display = "inline";
-    btnText0.innerHTML = "Voir plus";
-    moreText0.style.display = "none";
-  } else {
-    dots0.style.display = "none";
-    btnText0.innerHTML = "Voir moins";
-    moreText0.style.display = "inline";
-  }
-} 
-
-function myFunction2() {
-  var dots2 = document.getElementById("dots2");
-  var moreText2 = document.getElementById("more2");
-  var btnText2 = document.getElementById("myBtn2");
-
-  if (dots2.style.display === "none") {
-    dots2.style.display = "inline";
-    btnText2.innerHTML = "Voir plus";
-    moreText2.style.display = "none";
-  } else {
-    dots2.style.display = "none";
-    btnText2.innerHTML = "Voir moins";
-    moreText2.style.display = "inline";
-  }
-} 
-
-//top button fonction
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-    document.getElementById("topBtn").style.display = "block";
-  } else {
-    document.getElementById("topBtn").style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
+    <script>
+        window.addEventListener('scroll', function() {
+            let header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
     </script>
-    
-      
- <!-- ===== script adsense pug google===== -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6055764000581737"
-     crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+          var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+          var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+            var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+            if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+        }
+        
+        function MM_findObj(n, d) { //v4.01
+          var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+            d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+          if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+          for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+          if(!x && d.getElementById) x=d.getElementById(n); return x;
+        }
+        
+        function MM_swapImage() { //v3.0
+          var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+           if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+        }
+    </script>
+        
 </head>
-<body onLoad="MM_preloadImages('../CORSO HARVARD WEB DEVELOPPING 2023/img/logo_ada.jpg')">
-  <!-- Back to top button -->
-    <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen' ></i>
-           <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="index.html">AKN Consulting</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen' ></i>
+               <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="index.html"></a></span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="index.html"><img src="img/logo_icon.png" height="100px" alt="logo"></a></li>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="about.html">A propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
-                
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="inscription.html">Inscription</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </div>
-
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
-                </div>
-
-                <div class="searchBox">
-                   <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
-                   </div>
-
-                    <div class="search-field">
-                        <p>
-                          <input type="text" placeholder="Search...">
-                        </p>
-                      <p>&nbsp;</p>
+    
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+    
+                    <div class="searchBox">
+                       <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                       </div>
+    
+                        <div class="search-field">
+                            <p>
+                              <input type="text" placeholder="Search...">
+                            </p>
+                          <p>&nbsp;</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <br>
-    <br>
-<div class="bg_carousel_style" max-width="1000">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active"  data-interval="2000">
-        <img src="img/logo-png-akn-good.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/BI-2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/logo-png-akn.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/pbi.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/ms.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/ibm.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+        </nav>
+        <h6 style=" color: #a569bd; ">AKN TECH CONSULTING SRL</h6><br>
+       
+    </header>
+    <section class="hero">
+        <div>
+            <h1 style="color: #a569bd; background-color: #000;">La plateforme où l'innovation rencontre l'élégance.</h1>
+        
+        <a href="#" class="btn">Découvrir</a>
 
-    <!-- Carousel indicator desactiver dans ce comment 
-
-     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-     </div>
-     -->
-   
-  </div>
-  </div>
-<hr>  
-<div align="center"><a href="resultats_presidentiel_sn.html"><h1>RESULTATS DE LA PRESIDENTIELLE AU SENEGAL</h1></a></div>
-<hr>
-<div class="h3_design">
-  <h3 align="center" style="color: whitesmoke ;">Reporting Dashboard</h3>
-</div>
-<div class="card" style="width: 100%;" align="justify">
-  <img class="card-img-top" src="img/dash.png"   alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title" align="center">Reporting & Dashboard</h5>
-    <p class="card-text">Dans le paysage commercial d'aujourd'hui, l'accès à des informations précises et exploitables est essentiel pour prendre des décisions éclairées. Le reporting et les tableaux de bord jouent un rôle crucial dans cette démarche, en fournissant des données clés sous une forme visuelle et facile à comprendre.<span id="dots">...</span></p>
-    <span id="more">
-      Chez AKN Consulting, nous comprenons l'importance d'avoir une vision claire de vos données pour piloter votre entreprise vers le succès. Nos solutions de reporting et de tableaux de bord sont conçues pour vous offrir une analyse approfondie de vos performances, vous permettant ainsi de mieux comprendre vos forces, vos faiblesses et les opportunités à saisir.<br>
-           Que vous ayez besoin de suivre vos ventes, d'analyser vos données financières, de surveiller vos indicateurs de performance clés (KPI) ou de visualiser l'efficacité de vos campagnes marketing, nos tableaux de bord interactifs et personnalisables vous offrent une vue d'ensemble en temps réel de votre activité.<br> Notre équipe d'experts est là pour vous accompagner à chaque étape, de la conception et du développement de vos tableaux de bord à l'interprétation des données et à la formulation de stratégies basées sur des informations exploitables.<br> Découvrez comment nos solutions de reporting et de tableaux de bord peuvent vous aider à transformer vos données en insights et à prendre des décisions éclairées pour le succès de votre entreprise.</span></p>
-<button onclick="myFunction()" id="myBtn" class="read_morebtn" align="center">Voir plus</button> 
-          <div align="center"><a href="reporting_dashboard.html">Voir Un exemple de rapport Dynamique</a></div>
-  </div>
-</div>
-      <p>&nbsp;</p>
-      <div id="BgImgHome">
-        <p>&nbsp;</p>
-        <div class="designImg">
-     <div class="center_home" align="center">   
-       <p><a href="reporting_dashboard.html"><img src="img/dash.png" width="777" height="500" alt="Responsive image" class="lazy lazy_started "></a>
-       </p>
-     </div>
-    </div>
-    <p>&nbsp;</p>
-    </div>
-    <p>&nbsp;</p>
-    <div class="h3_design">
-        <h3 align="center" style="color: whitesmoke ;">Business intelligence</h3>
-    </div>    
-    <div class="card" style="width: 100%;" align="justify">
-      <img class="card-img-top" src="img/black.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title" align="center">Business intelligence</h5>
-        <p class="card-text">La Business Intelligence (BI) c'est une stratégie puissante qui permet aux entreprises de tirer parti de leurs données pour prendre des décisions éclairées et proactives. À une époque où les données abondent à un rythme exponentiel, la capacité à extraire des informations précieuses à partir de ces données devient un avantage concurrentiel crucial pour toute organisation.</p>
-         <span id="dots0">...</span><br>
-        <span id="more0">
-          Chez AKN Consulting, nous croyons fermement au potentiel transformateur de la Business Intelligence.<br> 
-                Nous sommes passionnés par l'accompagnement des entreprises dans leur parcours vers l'excellence analytique, en mettant à leur disposition les outils,
-                les compétences et l'expertise nécessaires pour exploiter pleinement le pouvoir de leurs données.<br>
-                Que vous soyez une petite entreprise cherchant à optimiser vos opérations ou une grande entreprise visant à rester agile dans un marché en constante évolution,
-                notre équipe hautement qualifiée est là pour vous aider à débloquer de nouvelles perspectives, à identifier des tendances cruciales et à prendre des décisions stratégiques éclairées.<br>
-                Explorez notre gamme de solutions de Business Intelligence et découvrez comment nous pouvons vous aider à transformer vos données en résultats tangibles.</span></p>
-               <button onclick="myFunction0()" id="myBtn0" class="read_morebtn" align="center">Voir plus</button> 
-            <div align="center"><a href="business_intelligence.html">Voir Un exemple de rapport Dynamique</a></div>
-      </div>
-    </div>
-        <p>&nbsp;</p>
-        <div id="BgImgHome">
-        <p>&nbsp;</p>
-        <div class="designImg">
-     <div class="center_home" align="center">   
-       <p><a href="business_intelligence.html"><img src="img/black.png"  width="777" height="500"  alt="Responsive image" class="lazy lazy_started "></a>
-       </p>
-     </div>
-    </div>
-     <p>&nbsp;</p>
-     </div>
-     <p>&nbsp;</p>
-<div class="h3_design">
-<h3 align="center" style="color: whitesmoke ;">Intelligence Artificielle</h3>
-</div>
-<div class="card" style="width: 100%;" align="justify">
-  <img class="card-img-top" src="img/ia.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title" align="center">Intelligence Artificielle</h5>
-    <p class="card-text">L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure. Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes, stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde.</p>
-     <span id="dots1">...</span><br>
-    <span id="more1">
-       Notre équipe d'experts en intelligence artificielle est à la pointe de l'innovation,
-         développant des solutions personnalisées et évolutives qui tirent parti des dernières avancées technologiques en matière d'apprentissage automatique, de traitement du langage naturel,
-         de vision par ordinateur et bien plus encore.<br> Que vous cherchiez à automatiser des tâches répétitives, à optimiser vos processus métier, 
-         à personnaliser l'expérience utilisateur ou à anticiper les tendances du marché, nos solutions d'IA sur mesure sont conçues pour répondre à vos besoins spécifiques et vous donner un avantage concurrentiel sur le marché.<br>
-         Nous croyons fermement que l'IA peut être un moteur de progrès et de croissance, et nous nous engageons à travailler en partenariat avec vous pour réaliser votre vision et atteindre vos objectifs les plus ambitieux.<br>
-         Découvrez comment nos solutions d'intelligence artificielle peuvent transformer votre entreprise et ouvrir de nouvelles possibilités infinies dans un monde de plus en plus connecté et intelligent. Bienvenue dans l'ère de l'intelligence artificielle avec AKN Consulting !</span></p>
-        <button onclick="myFunction1()" id="myBtn1" class="read_morebtn" align="center">Voir plus</button> 
-      <div align="center" ><a href="intelligence_artificielle.html">Voir Un exemple de rapport Dynamique</a></div>
-  </div>
-</div>
-<p>&nbsp;</p>
-<div id="BgImgHome">
-<p>&nbsp;</p>
-     <div class="designImg">
-     <div class="center_home" align="center">   
-     <p><a href="intelligence_artificielle.html"><img src="img/ia.jpg"  width="777" height="500" class=".img-fluid " alt="Responsive image"></a>
-     </p>
-    </div>
-    </div>
-     <p>&nbsp;</p>
-     </div>
-     <p>&nbsp;</p>
-<div class="h3_design">     
-<h3 align="center" style="color: whitesmoke ;">Data Analytics</h3>
-</div>
-
-  <div class="card" style="width: 100%;" align="justify">
-    <img class="card-img-top" src="img/wh.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title" align="center">Data Analytics</h5>
-      <p class="card-text">L'analyse des données est au cœur de la prise de décision efficace dans le monde des affaires d'aujourd'hui.
-    Chez AKN Consulting, nous comprenons l'importance cruciale de tirer parti de vos données pour obtenir des insights précieux qui peuvent stimuler la croissance, améliorer l'efficacité opérationnelle et conduire à des résultats tangibles.</p>
-       <span id="dots2">...</span><br>
-      <span id="more2">
-        Notre équipe d'experts en analyse des données est spécialisée dans l'extraction,
-       la transformation et l'interprétation de données pour vous fournir des informations exploitables et pertinentes. Que vous cherchiez à comprendre les tendances du marché,
-       à segmenter votre clientèle, à optimiser vos processus métier ou à prévoir les performances futures, nous avons les compétences et les ressources nécessaires pour vous aider à réussir.
-       Grâce à nos outils et techniques d'analyse avancés, nous transformons vos données brutes en tableaux de bord interactifs, en visualisations percutantes et en rapports détaillés qui vous permettent de prendre des décisions éclairées en temps réel.
-       Notre approche personnalisée garantit que chaque solution est adaptée à vos besoins uniques et alignée sur vos objectifs stratégiques.<br> Que vous soyez une start-up en pleine croissance ou une grande entreprise établie,
-       notre engagement envers l'excellence et l'innovation nous permet de fournir des solutions d'analyse des données de classe mondiale qui vous aident à rester compétitif dans un marché en constante évolution.<br>
-       Découvrez comment nos solutions d'analyse des données peuvent transformer vos défis en opportunités et vous aider à atteindre de nouveaux sommets dans votre parcours vers le succès.<br> Bienvenue dans l'ère de l'analyse des données avec AKN Consulting !</span></p>
-      
-      <button onclick="myFunction2()" id="myBtn2" class="read_morebtn" align="center">Voir plus</button> 
-        <div align="center"><a href="data_analytics.html">Voir Un exemple de rapport Dynamique</a></div>
-    </div>
-  </div>
-    <p>&nbsp;</p>
-    <div id="BgImgHome">
-     <p>&nbsp;</p>
-    <div class="designImg"> 
-	<div class="center_home" align="center">   
-     <p><a href="data_analytics.html"><img src="img/wh.jpg" width="777" height="500" class=".img-fluid " alt="Responsive image"></a>
-     </p>
-    </div>
-    </div>
-    <p>&nbsp;</p>
-    </div>
+        </div>
+        
+    </section>
     <hr>
+    <p>&nbsp;</p>
+    <div data-aos="fade-down">
+        <h1 style="color: #a569bd;"> Business Intelligence</h1>
+    </div>
+    
+    <p>&nbsp;</p>
+    <hr>
+    <h4 style="padding: 20px; text-align:center;">Une prise de décision éclairée repose sur des données fiables et pertinentes.
+        Dans cette optique, AKN vous propose un accompagnement complet tout au long de votre projet décisionnel.
+        Nous intervenons à chaque étape, de la collecte à l’analyse des données, en mettant à votre service une expertise reconnue en intelligence décisionnelle.
+        Grâce à la maîtrise d’outils puissants tels que IBM Cognos ou Power BI, ainsi qu’à l'utilisation de langages de requête comme SQL ou Python, nous vous aidons à transformer vos données en leviers de performance.
+    </h4>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="wrap animate pop" data-aos="fade-down">
+        <div class="overlay">
+            <div class="overlay-content animate slide-left delay-2">
+                <h1 class="animate slide-left pop delay-4">Intelligence Artificielle</h1>
+                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Kingdom: <em>Plantae</em></p>
+            </div>
+            <div class="image-content animate slide delay-5" ></div>
+            <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+            </div>
+        </div>
+        <div class="textCard">
+            <p style="margin: 5px;"><img class="inset" src="https://aknconsulting.it/img/ia.jpg" alt="" />L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure. Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes, stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde.</p>
+        </div>
+        
+    </div>
+    <p>&nbsp;</p>
+    <div style="background-color:  #f2f4f4 ; padding:30px;" data-aos="flip-left">
+        <strong><h1 style="color: #a569bd ;">AKN Tech Consulting c'est la solution à 360 degrés avec nos experts. </h1></strong>
+        <p>&nbsp;</p>
+         
+        <div class="circleDesign" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+
+            <div class="articles">
+            
+                <article>
+                  <h3>Compétences</h3>
+                </article>
+            </div>       
+        </div> 
+
+        <div class="circleDesign2"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+         <div class="articles">
+                <article>
+                    <h3>Experience</h3>
+                    
+                 </article>    
+        </div> 
+        </div>
+        <div class="circleDesign3" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+        <div class="articles">
+            <article>
+                <h3>Innovation</h3>
+                
+                
+             </article>    
+        </div> 
+        </div>           
+        <p>&nbsp;</p>                   
+    </div>
+    
+	<hr>
+
+    <p>&nbsp;</p>
+    <div data-aos="fade-down">
+        <h1 style="color: #a569bd;">Creation de site Web </h1>
+    </div>
+	
+    <p>&nbsp;</p>
+    <hr>
+    <h4  style="padding: 20px; text-align:center;">
+        Un site internet reflète l’image de votre entreprise et constitue sa vitrine digitale.
+        Sa conception doit donc être soignée pour garantir une expérience utilisateur optimale.
+        Pour y parvenir, il est essentiel de faire appel à des experts du domaine, comme AkN Tech Consulting.
+        Forte de plusieurs années d’expérience en développement web, notre équipe a contribué à la création et à la mise en ligne de nombreux sites internet sur mesure, alliant performance, design et fiabilité.
+      
+    </h4>
+    
+
+	<div class="wrap animate pop" data-aos="fade-down">
+	<div class="overlay">
+		<div class="overlay-content animate slide-left delay-2">
+			<h1 class="animate slide-left pop delay-4">Developpement Web</h1>
+			<p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Kingdom: <em>Plantae</em></p>
+		</div>
+		<div class="image-content2 animate slide delay-5" ></div>
+		<div class="dots animate">
+			<div class="dot animate slide-up delay-6"></div>
+			<div class="dot animate slide-up delay-7"></div>
+			<div class="dot animate slide-up delay-8"></div>
+		</div>
+	</div>
+	<div class="textCard">
+		<p style="margin: 5px;"><img class="inset" src="img/web.jpg" alt="" />L'intelligence artificielle (IA) c'est une révolution qui transforme fondamentalement la façon dont nous vivons, travaillons et interagissons avec le monde qui nous entoure. Chez AKN Consulting, nous sommes passionnés par le potentiel illimité de l'IA pour résoudre des problèmes complexes, stimuler l'innovation et améliorer la vie de millions de personnes à travers le monde.</p>
+	</div>
+</div>
+<hr>
+<div class="" data-aos="fade-down">
+    <h1>Nous Contacter</h1>
+    </div>
+    
+<div class="container" data-aos="flip-left">
+  <h1 style="color: #0e390e;"></h1>
+  <form action="#" method="post">
+    <label for="fname">Nom & prénom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+
+    <label for="sujet">Sujet</label>
+    <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+
+    <label for="emailAddress">Email</label>
+    <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Votre message" style="height:50px"></textarea>
+
+    <input type="submit" value="Envoyer">
+  </form>
+  
+</div>
+<p>&nbsp;</p>
+<div class="" style="background-color:  #a569bd ;" data-aos="zoom-in">
+        <img src="img/logo.png" style="height:5*400px; max-width:100%;" height="" width=""alt="logo">
+        </div>
+
+
+
+  
+    
+
 
 <script>
-const body = document.querySelector("body"),
-      nav = document.querySelector("nav"),
-      modeToggle = document.querySelector(".dark-light"),
-      searchToggle = document.querySelector(".searchToggle"),
-      sidebarOpen = document.querySelector(".sidebarOpen"),
-      siderbarClose = document.querySelector(".siderbarClose");
-
-      let getMode = localStorage.getItem("mode");
-          if(getMode && getMode === "dark-mode"){
-            body.classList.add("dark");
-          }
-
-// js code to toggle dark and light mode
-      modeToggle.addEventListener("click" , () =>{
-        modeToggle.classList.toggle("active");
-        body.classList.toggle("dark");
-
-        // js code to keep user selected mode even page refresh or file reopen
-        if(!body.classList.contains("dark")){
-            localStorage.setItem("mode" , "light-mode");
-        }else{
-            localStorage.setItem("mode" , "dark-mode");
+    const body = document.querySelector("body"),
+          nav = document.querySelector("nav"),
+          modeToggle = document.querySelector(".dark-light"),
+          searchToggle = document.querySelector(".searchToggle"),
+          sidebarOpen = document.querySelector(".sidebarOpen"),
+          siderbarClose = document.querySelector(".siderbarClose");
+    
+          let getMode = localStorage.getItem("mode");
+              if(getMode && getMode === "dark-mode"){
+                body.classList.add("dark");
+              }
+    
+    // js code to toggle dark and light mode
+          modeToggle.addEventListener("click" , () =>{
+            modeToggle.classList.toggle("active");
+            body.classList.toggle("dark");
+    
+            // js code to keep user selected mode even page refresh or file reopen
+            if(!body.classList.contains("dark")){
+                localStorage.setItem("mode" , "light-mode");
+            }else{
+                localStorage.setItem("mode" , "dark-mode");
+            }
+          });
+    
+    // js code to toggle search box
+            searchToggle.addEventListener("click" , () =>{
+            searchToggle.classList.toggle("active");
+          });
+     
+          
+    //   js code to toggle sidebar
+    sidebarOpen.addEventListener("click" , () =>{
+        nav.classList.add("active");
+    });
+    
+    body.addEventListener("click" , e =>{
+        let clickedElm = e.target;
+    
+        if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+            nav.classList.remove("active");
         }
-      });
-
-// js code to toggle search box
-        searchToggle.addEventListener("click" , () =>{
-        searchToggle.classList.toggle("active");
-      });
- 
-      
-//   js code to toggle sidebar
-sidebarOpen.addEventListener("click" , () =>{
-    nav.classList.add("active");
-});
-
-body.addEventListener("click" , e =>{
-    let clickedElm = e.target;
-
-    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-        nav.classList.remove("active");
-    }
-});
-
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<p>&nbsp;</p>
-<!-- Footer -->
-<footer class="bg-body-tertiary text-center">
-  <!-- Grid container -->
-  <div class="container_footer">
-    <!-- Section: Social media -->
-    <section class="container_footer">
-      <!-- Facebook -->
-      <a
-      data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-      <!-- Github -->
-      <a
-      data-mdb-ripple-init
-      class="btn text-white btn-floating m-1"
-      style="background-color: #333333;"
-      href="#!"
-      role="button"
-      ><i class="fab fa-github"></i
-    ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <hr>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="copyright">
-  <p align="center">Via Monsignor Macchi, 20 Gallarate (VA ) Italia</p>
-  <p align="center">Tel : +393396524214</p> 
-  <p align="center">Email : admin@aknconsulting.it</p>
-  <p align="center">© 2024 Copyright AKN CONSULTING SRL</p>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- top button -->
-<button onclick="topFunction()" id="topBtn" title="Go to top">🔝</button>
+    });
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <footer class="footer">
+		Via Antonio Gramsci, 43 Cardano Al Campo (VA) Italia<br>
+		Email : admin@aknconsulting.it || Tel : +393396524214<br>
+        &copy; 2025 AKN Tech Consulting srl<br>
+        Tous droits réservés.
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+	</script>
 </body>
 </html>
