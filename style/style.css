@@ -26,7 +26,7 @@ header {
     z-index: 1000;
 }
 header.scrolled {
-    background: rgba(240, 237, 237, 0.837);
+    background: rgba(240, 237, 237, 0.989);
 }
 .logo {
     font-size: 24px;
