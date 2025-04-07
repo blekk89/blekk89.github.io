@@ -658,8 +658,8 @@ animation:step-end;
 
 
 @keyframes circle {
-from {background-color: #f4b487b0;}
-to {background-color: #a8a6a923;}
+    from {background-color: #4a016bfc;}
+    to {background-color: #cba8f0d1;}
 }
 .circleDesign{
 
@@ -680,8 +680,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle2 {
-    from {background-color: #f4b487b0;}
-    to {background-color: #a8a6a923;}
+    from {background-color: #4a016bfc;}
+    to {background-color: #cba8f0d1;}
 }
 
 
@@ -704,8 +704,8 @@ animation-iteration-count:infinite;
 }
 
 @keyframes circle3 {
-    from {background-color: #f4b487b0;}
-    to {background-color: #a8a6a923;}
+    from {background-color: #4a016bfc;}
+    to {background-color: #cba8f0d1;}
 }
 
 
