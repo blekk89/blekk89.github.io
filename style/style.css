@@ -664,16 +664,16 @@ to {background-color: #a8a6a923;}
 .circleDesign{
 
 border-radius: 50%;
-width: 325px;
-height: 325px;
-background-color: #a8a6a96c;
+max-width: 325px;
+max-height: 325px;
+background-color: #ce8af0ed;
 padding: 0px;
 padding-top: 90px;
 display: inline-block;
 border: ivory #000;
 animation-name: circle;
 animation-duration: 5s;
-animation-iteration-count:0;
+animation-iteration-count:infinite;
 
 
 }
